@@ -1,15 +1,15 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'AIR SDK',
+  title: 'FantasyCrest Club',
   tagline:
     'Develop beautiful cross-platform applications from a single code base using the AIR SDK and ActionScript',
-  url: 'https://airsdk.dev',
+  url: 'https://hxwz.wnaqifan.top',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'favicon.ico',
-  organizationName: 'airsdk', // Usually your GitHub org/user name.
-  projectName: 'airsdk.dev', // Usually your repo name.
+  organizationName: '幻想纹章3交流群', // Usually your GitHub org/user name.
+  projectName: 'FantasyCrestClub', // Usually your repo name.
   trailingSlash: false,
   stylesheets: [
     {
@@ -35,9 +35,9 @@ module.exports = {
     },
 
     navbar: {
-      title: 'AIR SDK',
+      title: 'FantasyCrest Club',
       logo: {
-        alt: 'AIR SDK',
+        alt: 'FantasyCrest Club',
         src: 'images/logo.svg',
       },
       items: [
@@ -52,7 +52,7 @@ module.exports = {
         { to: '/community', label: 'Community', position: 'left' },
         { to: '/news', label: 'News', position: 'left' },
         {
-          href: 'https://github.com/airsdk/airsdk.dev',
+          href: 'https://github.com/Diend2023/FantasyCrestClub',
           'aria-label': 'GitHub repository',
           position: 'right',
           className: 'header-github-link',
@@ -65,7 +65,7 @@ module.exports = {
     },
     footer: {
       logo: {
-        alt: 'AIR',
+        alt: 'FantasyCrest Club',
         src: 'images/logo.svg',
         href: '/',
       },

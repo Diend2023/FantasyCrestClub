@@ -21,10 +21,10 @@ export default function HomepageHeader() {
                 className="button button--info button--lg"
                 to="/docs/basics/getting-started"
               >
-                Get Started
+                开始游玩
               </Link>
               <Link className="button button--primary button--lg" to="/docs/tutorials">
-                Learn more &#10132;
+                了解更多 &#10132;
               </Link>
             </div>
           </div>

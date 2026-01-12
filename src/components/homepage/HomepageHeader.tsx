@@ -19,7 +19,7 @@ export default function HomepageHeader() {
             <div className={styles.buttons}>
               <Link
                 className="button button--info button--lg"
-                to="/docs/basics/getting-started"
+                to="/showcase"
               >
                 开始游玩
               </Link>

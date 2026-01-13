@@ -55,7 +55,7 @@ module.exports = {
         //   { to: '/reference/33.1.1', label: '33.1.1' },
         // ]},
         // { to: '/reference', label: 'Reference', position: 'left' },
-        { to: '/reference', label: 'ActionScript 3.0', position: 'left' },
+        { href: 'https://airsdk.dev/reference', label: 'ActionScript 3.0', position: 'left' },
         { href: 'https://zygameui.cn/?p=haxe', label: 'Haxe', position: 'left' },
         // { to: '/showcase', label: 'Showcase', position: 'left' },
         { to: '/showcase', label: '游戏', position: 'left' },
@@ -88,23 +88,28 @@ module.exports = {
           // title: 'Docs',
           title: '文档',
           items: [
+            // {
+            //   label: 'Features',
+            //   to: '/docs/features',
+            //   className: 'footer__link-item',
+            // },
+            // {
+            //   label: 'Getting Started',
+            //   to: '/docs/basics/getting-started',
+            //   className: 'footer__link-item',
+            // },
+            // {
+            //   label: 'Tutorials',
+            //   to: '/docs/tutorials',
+            // },
             {
-              label: 'Features',
-              to: '/docs/features',
-              className: 'footer__link-item',
+              label: 'Haxe',
+              href: 'https://zygameui.cn/?p=haxe',
             },
             {
-              label: 'Getting Started',
-              to: '/docs/basics/getting-started',
-              className: 'footer__link-item',
-            },
-            {
-              label: 'Tutorials',
-              to: '/docs/tutorials',
-            },
-            {
-              label: 'Reference',
-              to: '/reference',
+              label: 'ActionScript 3.0',
+              // to: '/reference',
+              href: 'https://airsdk.dev/reference',
             },
           ],
         },
@@ -145,7 +150,7 @@ module.exports = {
         },
       ],
       // copyright: `Except as otherwise noted, this work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution 3.0</a> License, and code samples are licensed under the MIT License. <br/>Adobe, the Adobe logo, Adobe AIR, ActionScript, AIR, Flash, Flash Builder, Flash Lite, Flex, MXML, and Pixel Bender are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.<br/>Much of this content is based on the original <a href="https://help.adobe.com/en_US/air/build/index.html">Adobe developer documentation</a>`,
-      copyright: `该项目来源于<a href="https://github.com/airsdk/airsdk.dev/">airsdk.dev</a>，仅保留了<a href="https://airsdk.dev/reference/">Reference</a>部分<br/>其它关于幻想纹章的内容均为原作者左眼 （<a href="https://github.com/rainyt">Rainy</a>、<a href="https://gitee.com/zygameui">左眼</a>）所有`,
+      copyright: `该项目来源于<a href="https://github.com/airsdk/airsdk.dev/">airsdk.dev</a><br/>其它关于幻想纹章的内容均为原作者左眼 （<a href="https://github.com/rainyt">Rainy</a>、<a href="https://gitee.com/zygameui">左眼</a>）所有`,
     },
   },
   presets: [

@@ -57,7 +57,7 @@ const ShowcaseCard = memo(function ({ application }: { application: Application 
             </div>
           </div>
         </div>
-        {(application.website || application.appStoreUrl || application.playStoreUrl) && (
+        {(application.website || application.appStoreUrl || application.playStoreUrl || application.windowsUrl || application.androidUrl) && (
           <div className="card__footer">
             <div className={clsx(styles.storeButtons)}>
               {application.appStoreUrl && (
@@ -80,6 +80,26 @@ const ShowcaseCard = memo(function ({ application }: { application: Application 
                   <img src="/images/playstore.png" alt="Get it on Google Play" />
                 </a>
               )}
+              {application.windowsUrl && (
+                <a
+                  className=""
+                  href={application.windowsUrl}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <img src="/images/windows.png" alt="获取 Windows 版本" />
+                </a>
+              )}
+              {application.androidUrl && (
+                <a
+                  className=""
+                  href={application.androidUrl}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <img src="/images/android.png" alt="获取 Android 版本" />
+                </a>
+              )}
             </div>
 
             <div className="button-group button-group--block">
@@ -90,7 +110,7 @@ const ShowcaseCard = memo(function ({ application }: { application: Application 
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  Website
+                  在线访问
                 </a>
               )}
             </div>

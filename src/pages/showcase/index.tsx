@@ -15,10 +15,10 @@ import { Tag, TagType, Tags, TagList } from '../../data/tags';
 
 type Operator = 'OR' | 'AND';
 
-const TITLE = 'AIR Application Showcase';
-const DESCRIPTION = 'See what developers are building with the AIR SDK';
-const EDIT_URL =
-  'https://github.com/airsdk/airsdk.dev/edit/main/src/data/applications.tsx';
+const TITLE = '游戏展示';
+const DESCRIPTION = '在这里你可以找到幻想纹章的大部分版本';
+// const EDIT_URL =
+//   'https://github.com/airsdk/airsdk.dev/edit/main/src/data/applications.tsx';
 
 function filterApplications(
   applications: Application[],
@@ -144,8 +144,8 @@ function Showcase() {
       <ShowcaseHeader
         title={TITLE}
         description={DESCRIPTION}
-        linkText="Add your application"
-        linkUrl={EDIT_URL}
+        // linkText="Add your application"
+        // linkUrl={EDIT_URL}
       />
       <main className="container margin-vert--lg">
         <ShowcaseCards filteredApplications={filteredApplications} />

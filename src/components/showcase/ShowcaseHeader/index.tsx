@@ -18,11 +18,11 @@ export default function ShowcaseHeader({ title, description, linkText, linkUrl }
 
           <p className="hero__subtitle">{description}</p>
 
-          <div className={styles.buttons}>
+          {/* <div className={styles.buttons}>
             <Link className="button button--primary button--lg" to={linkUrl}>
               {linkText} &#10132;
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </header>

@@ -10,7 +10,10 @@ export type TagType =
   | 'commandline'
   | 'mobile'
   | 'desktop'
-  | 'tv';
+  | 'tv'
+  | 'flash'
+  | 'ruffle'
+  | 'web';
 
 export type Tag = {
   label: string;
@@ -25,7 +28,7 @@ export const Tags: Record<TagType, Tag> = {
   // DO NOT USE THIS TAG: we choose sites to add to highlight
   highlight: {
     label: 'Highlight',
-    description: 'Amazong applications that you should check-out!',
+    description: '令人惊叹的应用程序，您应该查看！',
     icon: (
       <>
         <img src="/images/tags/highlight.png" alt="highlight" />
@@ -35,7 +38,7 @@ export const Tags: Record<TagType, Tag> = {
 
   game: {
     label: 'Game',
-    description: 'A game application',
+    description: '游戏应用程序',
     icon: (
       <>
         <img src="/images/tags/game.png" alt="game" />
@@ -45,7 +48,7 @@ export const Tags: Record<TagType, Tag> = {
 
   utility: {
     label: 'Utility',
-    description: 'A utility application, handy tools like a weather application',
+    description: '实用程序应用程序，像天气应用程序这样的便捷工具',
     icon: (
       <>
         <img src="/images/tags/utility.png" alt="utility" />
@@ -55,7 +58,7 @@ export const Tags: Record<TagType, Tag> = {
 
   entertainment: {
     label: 'Entertainment',
-    description: 'A media, music or video application designed to entertain',
+    description: '用于娱乐的媒体、音乐或视频的应用程序',
     icon: (
       <>
         <img src="/images/tags/entertainment.png" alt="entertainment" />
@@ -65,7 +68,7 @@ export const Tags: Record<TagType, Tag> = {
 
   social: {
     label: 'Social',
-    description: 'A social application that users use to communicate with other people',
+    description: '社交应用程序，用户用来与其他人交流',
     icon: (
       <>
         <img src="/images/tags/social.png" alt="social" />
@@ -75,7 +78,7 @@ export const Tags: Record<TagType, Tag> = {
 
   education: {
     label: 'Education',
-    description: 'An application that is used for learning and educational purposes',
+    description: '用于学习和教育目的的应用程序',
     icon: (
       <>
         <img src="/images/tags/education.png" alt="education" />
@@ -85,7 +88,7 @@ export const Tags: Record<TagType, Tag> = {
 
   commandline: {
     label: 'Command Line',
-    description: 'An application used on the command line or terminal',
+    description: '在命令行或终端中使用的应用程序',
     icon: (
       <>
         <img src="/images/tags/commandline.png" alt="commandline" />
@@ -95,7 +98,7 @@ export const Tags: Record<TagType, Tag> = {
 
   mobile: {
     label: 'Mobile',
-    description: 'A mobile application for iOS, Android etc',
+    description: '针对移动平台（如iOS或Android）的应用程序',
     icon: (
       <>
         <img src="/images/tags/mobile.png" alt="mobile" />
@@ -105,7 +108,7 @@ export const Tags: Record<TagType, Tag> = {
 
   desktop: {
     label: 'Desktop',
-    description: 'A desktop application for Windows or macOS',
+    description: '针对桌面平台（如Windows或macOS）的应用程序',
     icon: (
       <>
         <img src="/images/tags/desktop.png" alt="desktop" />
@@ -115,11 +118,37 @@ export const Tags: Record<TagType, Tag> = {
 
   tv: {
     label: 'TV',
-    description:
-      'An application that targets the TV platforms (such as AppleTV or AndroidTV)',
+    description:'针对电视平台（如AppleTV或AndroidTV）的应用程序',
     icon: (
       <>
         <img src="/images/tags/tv.png" alt="tv" />
+      </>
+    ),
+  },
+  flash: {
+    label: 'Flash',
+    description: '必须在可用flash插件的浏览器或者flash player中运行的Flash应用程序',
+    icon: (
+      <>
+        <img src="/images/tags/flash.png" alt="flash" />
+      </>
+    ),
+  },
+  ruffle: {
+    label: 'Ruffle',
+    description: '可以使用Ruffle在浏览器中直接运行的Flash应用程序',
+    icon: (
+      <>
+        <img src="/images/tags/ruffle.png" alt="ruffle" />
+      </>
+    ),
+  },
+  web: {
+    label: 'Web',
+    description: '可以在浏览器中直接运行的Web应用程序',
+    icon: (
+      <>
+        <img src="/images/tags/web.png" alt="web" />
       </>
     ),
   },

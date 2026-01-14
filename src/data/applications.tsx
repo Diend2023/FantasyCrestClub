@@ -53,313 +53,339 @@ export type Application = {
   website?: string;
   appStoreUrl?: string;
   playStoreUrl?: string;
+  windowsUrl?: string;
+  androidUrl?: string;
 };
 
 // Add your application to this list
 const Applications: Application[] = [
   {
-      title: 'FlashWords AAC',
-      description: 'FlashWords AAC is an application for the Early Reading method which is successfully applied in the education of children with a delayed development that also affects speech development (e.g. Down Syndrom). The main goal is to support speech development. ',
-      preview: require('./showcase/flashwordsaac.png'),
-      publishDate: new Date(2015, 9, 30),
-      tags: ['education', 'mobile', 'desktop', 'game'],
-      website: 'https://www.integratools.at',
-      appStoreUrl: 'https://apps.apple.com/at/app/flashwords-aac/id1019094526',
+      title: '4399幻想纹章',
+      description: '在4399上能找到的最早的幻想纹章版本，非常适合去考古一波。',
+      preview: require('./showcase/4399hxwz.png'),
+      publishDate: new Date(2013, 9, 4),
+      tags: ['ruffle', 'game'],
+      website: 'https://www.4399.com/flash/122702.htm',
   },
   {
-    title: 'String art DIY',
-    description:
-      'The fastest and most accurate thread/string art generator. The app is designed as a DIY (Do it yourself) tool which you can use to weave the threads yourself. And it is free to use',
-    preview: require('./showcase/myzigzagart.jpg'),
-    publishDate: new Date(2022, 10, 19),
-    tags: ['mobile', 'entertainment'],
-    website: 'https://www.myzigzagart.com',
-    appStoreUrl: 'https://apps.apple.com/app/string-art-diy/id1599931263',
-    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.myzigzagart.mobile',
+      title: '4399幻想纹章1.3',
+      description: '在4399上仅存幻想纹章1系列中的1.3版本，幻想纹章[14.3.24.0][死神篇]版本1.3。',
+      preview: require('./showcase/4399hxwz1.3.png'),
+      publishDate: new Date(2013, 9, 4),
+      tags: ['ruffle', 'game'],
+      website: 'https://www.4399.com/flash/122702.htm',
   },
   {
-    title: '20 000 Cogs under the Sea',
-    description:
-      'Start your awesome underwater steampunk adventure. Build underwater factory, connect the cogwheels ⚙ for the most efficient work in the idle game 🎮 mode. Tap volcanoes 🌋 for oxygen, drill the seabed and mine ⛏ the ore.',
-    preview: require('./showcase/20000cogs.png'),
-    publishDate: new Date(2018, 5, 15),
-    tags: ['game', 'mobile', 'desktop'],
-    website: 'https://airapport.itch.io/20-000-cogs-under-the-sea',
-    appStoreUrl: 'https://itunes.apple.com/us/app/20000-cogs-under-the-sea/id1441246412',
-    playStoreUrl: 'https://play.google.com/store/apps/details?id=air.com.airapport.A20000.cogs.under.sea.nemo.steampunk',
+      title: '4399幻想纹章1.5',
+      description: '在4399上仅存幻想纹章1系列中的1.5版本，幻想纹章[14.7.30.0][苍翼·暑假·福利篇]版本1.5。',
+      preview: require('./showcase/4399hxwz1.5.png'),
+      publishDate: new Date(2013, 9, 4),
+      tags: ['ruffle', 'game'],
+      website: 'https://www.4399.com/flash/122702.htm',
   },
-  {
-    title: 'AIR Package Manager',
-    description:
-      'The AIR Package Manager is a command line utiltiy for managing AIR applications',
-    preview: require('./showcase/airpackagemanager.png'),
-    publishDate: new Date(2021, 10, 14),
-    tags: ['commandline', 'utility', 'highlight'],
-    website: 'https://github.com/airsdk/apm',
-  },
-  {
-    title: 'Bonza Jigsaw',
-    description:
-      'Solve jigsaw puzzles that feature stunning images from around the globe. Austrian alps, Canadian creatures, Danish dance and Brazilian beaches. Explore exotic regions and discover new cultures, embrace the diversity that makes our world unique and preserve the values that bring us together.',
-    preview: require('./showcase/bonzajigsaw.jpg'),
-    publishDate: new Date(2018, 10, 14),
-    tags: ['game', 'mobile'],
-    website: 'http://bonzapuzzles.com/',
-    appStoreUrl: 'https://apps.apple.com/us/app/bonza-jigsaw/id1212690976',
-    playStoreUrl:
-      'https://play.google.com/store/apps/details?id=air.au.com.minimega.bonzajigsaw',
-  },
-  {
-    title: 'Bonza Planet',
-    description:
-      'Combine word search, jigsaw and trivia to solve puzzles as you explore the world of Bonza Planet. This edition of Bonza highlights themes like Animals, Travel, Planet Earth, Humanity and Science.',
-    preview: require('./showcase/bonzaplanet.png'),
-    publishDate: new Date(2016, 10, 14),
-    tags: ['game', 'mobile'],
-    website: 'http://bonzapuzzles.com/',
-    appStoreUrl: 'https://apps.apple.com/us/app/bonza-planet/id908187161',
-    playStoreUrl:
-      'https://play.google.com/store/apps/details?id=air.au.com.minimega.bonzanatgeo',
-  },
-  {
-    title: 'Bonza Word Puzzle',
-    description:
-      "Bonza is a new type of crossword that has become an instant classic. It mixes word search, jigsaw and trivia to create something completely fresh. If you like a word challenge and you enjoy pushing boxes around with your fingers, then you'll love Bonza Word Puzzle.",
-    preview: require('./showcase/bonzawordpuzzle.png'),
-    publishDate: new Date(2014, 10, 14),
-    tags: ['game', 'mobile'],
-    website: 'http://bonzapuzzles.com/',
-    appStoreUrl: 'https://apps.apple.com/us/app/bonza-word-puzzle/id662053009',
-    playStoreUrl:
-      'https://play.google.com/store/apps/details?id=air.au.com.minimega.bonza',
-  },
-  {
-    title: 'Boo!',
-    description:
-      'Boo! is a spooky puzzle game for you! To solve the puzzles you have to dip the pumpkin in the different paints and wear attributes to mask certain parts of the pumpkin. Can you make the correct pumpkin in 42 Halloween themed levels? Complete all the levels to unlock the daily puzzle mode.',
-    preview: require('./showcase/boo.png'),
-    publishDate: new Date(2017, 10, 23),
-    tags: ['game', 'mobile', 'desktop'],
-    website: 'https://store.steampowered.com/app/2165600/Boo',
-    appStoreUrl: 'https://apps.apple.com/app/boo-factory-balls-halloween/id1299443361',
-    playStoreUrl: 'https://play.google.com/store/apps/details?id=air.com.bartbonte.boo',
-  },
-  {
-    title: 'Bullet Heaven 2',
-    description:
-      'A mesmerizing bullet-hell shoot-em-up. Shoot at cute enemies, while dodging hundreds of bullets per second! This game was made with Starling, has full controller and leaderboard support, and supports up to 4 players locally.',
-    preview: require('./showcase/bulletheaven2.png'),
-    publishDate: new Date(2015, 12, 8),
-    tags: ['game', 'desktop'],
-    website: 'https://store.steampowered.com/app/412670/Bullet_Heaven_2/',
-  },
-  {
-    title: 'Dallmeier HEMISPHERE® SeMSy®',
-    description:
-      'The HEMISPHERE® SeMSy® video and alarm management system is one of the most comprehensive solutions on the market for video management systems (VMS). The application portfolio goes far beyond classic video management tasks and offers the comprehensive integration of third-party systems via various interfaces and industry modules.',
-    preview: require('./showcase/hemispheresemsy.png'),
-    publishDate: new Date(2021, 11, 5),
-    tags: ['utility', 'desktop'],
-    website: 'https://www.dallmeier.com/technology/software',
-  },
-  {
-    title: 'Engineer Millionaire',
-    description:
-      'Cogs, money and mad science! All what you have at start is a machine which produces coins out of nothing, but it’s all what you need to build your factory, mine coal, construct drones and become a millionaire!',
-    preview: require('./showcase/engineer.png'),
-    publishDate: new Date(2018, 1, 1),
-    tags: ['game', 'mobile', 'desktop'],
-    website: 'https://airapport.itch.io/engineer-millionaire',
-    appStoreUrl: 'https://itunes.apple.com/us/app/engineer-millionaire/id1437172358',
-    playStoreUrl: 'https://play.google.com/store/apps/details?id=air.com.airapport.engineer',
-  },
+  // {
+  //     title: 'FlashWords AAC',
+  //     description: 'FlashWords AAC is an application for the Early Reading method which is successfully applied in the education of children with a delayed development that also affects speech development (e.g. Down Syndrom). The main goal is to support speech development. ',
+  //     preview: require('./showcase/flashwordsaac.png'),
+  //     publishDate: new Date(2015, 9, 30),
+  //     tags: ['education', 'mobile', 'desktop', 'game'],
+  //     website: 'https://www.integratools.at',
+  //     appStoreUrl: 'https://apps.apple.com/at/app/flashwords-aac/id1019094526',
+  // },
+  // {
+  //   title: 'String art DIY',
+  //   description:
+  //     'The fastest and most accurate thread/string art generator. The app is designed as a DIY (Do it yourself) tool which you can use to weave the threads yourself. And it is free to use',
+  //   preview: require('./showcase/myzigzagart.jpg'),
+  //   publishDate: new Date(2022, 10, 19),
+  //   tags: ['mobile', 'entertainment'],
+  //   website: 'https://www.myzigzagart.com',
+  //   appStoreUrl: 'https://apps.apple.com/app/string-art-diy/id1599931263',
+  //   playStoreUrl: 'https://play.google.com/store/apps/details?id=com.myzigzagart.mobile',
+  // },
+  // {
+  //   title: '20 000 Cogs under the Sea',
+  //   description:
+  //     'Start your awesome underwater steampunk adventure. Build underwater factory, connect the cogwheels ⚙ for the most efficient work in the idle game 🎮 mode. Tap volcanoes 🌋 for oxygen, drill the seabed and mine ⛏ the ore.',
+  //   preview: require('./showcase/20000cogs.png'),
+  //   publishDate: new Date(2018, 5, 15),
+  //   tags: ['game', 'mobile', 'desktop'],
+  //   website: 'https://airapport.itch.io/20-000-cogs-under-the-sea',
+  //   appStoreUrl: 'https://itunes.apple.com/us/app/20000-cogs-under-the-sea/id1441246412',
+  //   playStoreUrl: 'https://play.google.com/store/apps/details?id=air.com.airapport.A20000.cogs.under.sea.nemo.steampunk',
+  // },
+  // {
+  //   title: 'AIR Package Manager',
+  //   description:
+  //     'The AIR Package Manager is a command line utiltiy for managing AIR applications',
+  //   preview: require('./showcase/airpackagemanager.png'),
+  //   publishDate: new Date(2021, 10, 14),
+  //   tags: ['commandline', 'utility', 'highlight'],
+  //   website: 'https://github.com/airsdk/apm',
+  // },
+  // {
+  //   title: 'Bonza Jigsaw',
+  //   description:
+  //     'Solve jigsaw puzzles that feature stunning images from around the globe. Austrian alps, Canadian creatures, Danish dance and Brazilian beaches. Explore exotic regions and discover new cultures, embrace the diversity that makes our world unique and preserve the values that bring us together.',
+  //   preview: require('./showcase/bonzajigsaw.jpg'),
+  //   publishDate: new Date(2018, 10, 14),
+  //   tags: ['game', 'mobile'],
+  //   website: 'http://bonzapuzzles.com/',
+  //   appStoreUrl: 'https://apps.apple.com/us/app/bonza-jigsaw/id1212690976',
+  //   playStoreUrl:
+  //     'https://play.google.com/store/apps/details?id=air.au.com.minimega.bonzajigsaw',
+  // },
+  // {
+  //   title: 'Bonza Planet',
+  //   description:
+  //     'Combine word search, jigsaw and trivia to solve puzzles as you explore the world of Bonza Planet. This edition of Bonza highlights themes like Animals, Travel, Planet Earth, Humanity and Science.',
+  //   preview: require('./showcase/bonzaplanet.png'),
+  //   publishDate: new Date(2016, 10, 14),
+  //   tags: ['game', 'mobile'],
+  //   website: 'http://bonzapuzzles.com/',
+  //   appStoreUrl: 'https://apps.apple.com/us/app/bonza-planet/id908187161',
+  //   playStoreUrl:
+  //     'https://play.google.com/store/apps/details?id=air.au.com.minimega.bonzanatgeo',
+  // },
+  // {
+  //   title: 'Bonza Word Puzzle',
+  //   description:
+  //     "Bonza is a new type of crossword that has become an instant classic. It mixes word search, jigsaw and trivia to create something completely fresh. If you like a word challenge and you enjoy pushing boxes around with your fingers, then you'll love Bonza Word Puzzle.",
+  //   preview: require('./showcase/bonzawordpuzzle.png'),
+  //   publishDate: new Date(2014, 10, 14),
+  //   tags: ['game', 'mobile'],
+  //   website: 'http://bonzapuzzles.com/',
+  //   appStoreUrl: 'https://apps.apple.com/us/app/bonza-word-puzzle/id662053009',
+  //   playStoreUrl:
+  //     'https://play.google.com/store/apps/details?id=air.au.com.minimega.bonza',
+  // },
+  // {
+  //   title: 'Boo!',
+  //   description:
+  //     'Boo! is a spooky puzzle game for you! To solve the puzzles you have to dip the pumpkin in the different paints and wear attributes to mask certain parts of the pumpkin. Can you make the correct pumpkin in 42 Halloween themed levels? Complete all the levels to unlock the daily puzzle mode.',
+  //   preview: require('./showcase/boo.png'),
+  //   publishDate: new Date(2017, 10, 23),
+  //   tags: ['game', 'mobile', 'desktop'],
+  //   website: 'https://store.steampowered.com/app/2165600/Boo',
+  //   appStoreUrl: 'https://apps.apple.com/app/boo-factory-balls-halloween/id1299443361',
+  //   playStoreUrl: 'https://play.google.com/store/apps/details?id=air.com.bartbonte.boo',
+  // },
+  // {
+  //   title: 'Bullet Heaven 2',
+  //   description:
+  //     'A mesmerizing bullet-hell shoot-em-up. Shoot at cute enemies, while dodging hundreds of bullets per second! This game was made with Starling, has full controller and leaderboard support, and supports up to 4 players locally.',
+  //   preview: require('./showcase/bulletheaven2.png'),
+  //   publishDate: new Date(2015, 12, 8),
+  //   tags: ['game', 'desktop'],
+  //   website: 'https://store.steampowered.com/app/412670/Bullet_Heaven_2/',
+  // },
+  // {
+  //   title: 'Dallmeier HEMISPHERE® SeMSy®',
+  //   description:
+  //     'The HEMISPHERE® SeMSy® video and alarm management system is one of the most comprehensive solutions on the market for video management systems (VMS). The application portfolio goes far beyond classic video management tasks and offers the comprehensive integration of third-party systems via various interfaces and industry modules.',
+  //   preview: require('./showcase/hemispheresemsy.png'),
+  //   publishDate: new Date(2021, 11, 5),
+  //   tags: ['utility', 'desktop'],
+  //   website: 'https://www.dallmeier.com/technology/software',
+  // },
+  // {
+  //   title: 'Engineer Millionaire',
+  //   description:
+  //     'Cogs, money and mad science! All what you have at start is a machine which produces coins out of nothing, but it’s all what you need to build your factory, mine coal, construct drones and become a millionaire!',
+  //   preview: require('./showcase/engineer.png'),
+  //   publishDate: new Date(2018, 1, 1),
+  //   tags: ['game', 'mobile', 'desktop'],
+  //   website: 'https://airapport.itch.io/engineer-millionaire',
+  //   appStoreUrl: 'https://itunes.apple.com/us/app/engineer-millionaire/id1437172358',
+  //   playStoreUrl: 'https://play.google.com/store/apps/details?id=air.com.airapport.engineer',
+  // },
 
-  {
-    title: 'Epic Battle Fantasy 5',
-    description:
-      'A 30-hour turn-based RPG adventure, full of video game references, juvenile dialogue, and anime fanservice... and also strategic combat, monster catching, and tons of treasure hunting! Made with AIR and the classic Flash display list, it took over 4 years of work and sold over 100,000 copies!',
-    preview: require('./showcase/epicbattlefantasy5.png'),
-    publishDate: new Date(2018, 12, 1),
-    tags: ['game', 'mobile', 'desktop'],
-    website: 'https://store.steampowered.com/app/432350/Epic_Battle_Fantasy_5/',
-    appStoreUrl: 'https://apps.apple.com/mm/app/epic-battle-fantasy-5-rpg/id6443990313',
-    playStoreUrl: 'https://play.google.com/store/apps/details?id=air.EpicBattleFantasy5',
-  },
-  {
-    title: 'Epic Battle Fantasy 4',
-    description:
-      'A light-hearted turn-based RPG, inspired by 2D classics. You will battle through waves of enemies, grow your characters, read cringey dialogue, explore a diverse world, solve puzzles, and of course, save the world. Originally packaged with MDM Zinc, it has been updated to use AIR in the latest version.',
-    preview: require('./showcase/epicbattlefantasy4.png'),
-    publishDate: new Date(2014, 2, 26),
-    tags: ['game', 'desktop'],
-    website: 'https://store.steampowered.com/app/265610/Epic_Battle_Fantasy_4/',
-  },
-  {
-    title: 'Epic Battle Fantasy Collection',
-    description:
-      'A collection of short and silly games from the early days of the internet. There\'s turn-based RPGs, shoot-em-ups, platformers, and more - updated with new quality-of-life features. This is an AIR application that launches .swf files, both ActionScript 3 and ActionScript 2, and adds Steam features!',
-    preview: require('./showcase/epicbattlefantasycollection.png'),
-    publishDate: new Date(2009, 5, 1),
-    tags: ['game', 'desktop'],
-    website: 'https://store.steampowered.com/app/1469620/Epic_Battle_Fantasy_Collection/',
-  },
-  {
-    title: 'Factory balls',
-    description:
-      'You might think that working on the assembly line is tedious work, but not if you\'re manufacturing Factory Balls! Your job in this logic puzzle game is to custom craft each ball to a specific order. You\'ve got all the tools you need to fulfill each order... except the instruction manual.',
-    preview: require('./showcase/factory_balls.png'),
-    publishDate: new Date(2013, 5, 7),
-    tags: ['game', 'mobile', 'desktop'],
-    website: 'https://store.steampowered.com/app/1054660/Factory_Balls',
-    appStoreUrl: 'https://apps.apple.com/app/factory-balls-official/id641519483',
-    playStoreUrl: 'https://play.google.com/store/apps/details?id=air.air.FactoryBalls',
-  },
-  {
-    title: 'Farm and Mine',
-    description:
-      'Farm and mine idle tycoon combines the most fun features from idle farm tycoon games and clicker mine factory simulators. You have a vegetable farm at start. But as you grow more food, build a house, hire a farmer, drill for idle coal mining and oil pumping, you can create a farming empire and become a millionaire tycoon',
-    preview: require('./showcase/farm.png'),
-    publishDate: new Date(2021, 8, 14),
-    tags: ['game', 'mobile', 'desktop'],
-    website: 'https://airapport.itch.io/farm-and-mine',
-    appStoreUrl: 'https://apps.apple.com/us/app/farm-and-mine-deep-idle-ld48/id1564694016',
-    playStoreUrl:
-      'https://play.google.com/store/apps/details?id=com.airapport.farm.mine.idle.ludumdare48',
-  },
-  {
-    title: 'GameVelvet - Online Card Games and Board Games',
-    description:
-      'More than 25 board and card games available for Android, iPhone, iPad, Windows Store. The app is available in 5 languages: English, Portuguese, Italian, French, and Spanish and has more than 800,000 monthly active users in all platforms. Users can choose to play traditional card and board games with online players around the world or train with bots (AI).',
-    preview: require('./showcase/megajogos.png'),
-    publishDate: new Date(2012, 9, 27),
-    tags: ['game', 'mobile', 'desktop'],
-    website: 'https://www.megajogos.com.br',
-    appStoreUrl: 'https://apps.apple.com/br/app/megajogos-cartas-e-tabuleiro/id570050950',
-    playStoreUrl: 'https://play.google.com/store/apps/details?id=air.br.com.megajogos.mobile',
-  },
-  {
-    title: 'HD Poker',
-    description:
-      'HD Poker is the place for you to Unlock your Happy Within™, with an awesome community and the best vibes! Invite your friends and family and enjoy the most awesome and fun poker game in the world.\n\nAvailable on Steam for Windows and macOS',
-    preview: require('./showcase/hdpoker.jpg'),
-    publishDate: new Date(2018, 9, 14),
-    tags: ['game', 'social', 'desktop'],
-    website: 'https://store.steampowered.com/app/797430/HD_Poker_Texas_Holdem/',
-  },
-  {
-    title: 'Idle Tower Builder',
-    description:
-      'You are in charge of building the world highest tower. Gather or produce the necessary resources and fulfill your aim!',
-    preview: require('./showcase/tower.png'),
-    publishDate: new Date(2020, 8, 13),
-    tags: ['game', 'mobile', 'desktop'],
-    website: 'https://airapport.itch.io/idle-tower-builder',
-    appStoreUrl: 'https://apps.apple.com/us/app/idle-tower-builder/id1527621990',
-    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.airapport.idletowerbuilder',
-  },
-  {
-    title: 'Pink',
-    description:
-      'Can you make the screen pink in 50 levels? Each level has its own logic. The 6th part in the colour puzzle series. After yellow, red, black, blue and green, it\'s time to solve 50 new conundrums!',
-    preview: require('./showcase/pink.png'),
-    publishDate: new Date(2021, 1, 27),
-    tags: ['game', 'mobile'],
-    appStoreUrl: 'https://apps.apple.com/app/pink-game/id1548980409',
-    playStoreUrl: 'https://play.google.com/store/apps/details?id=air.com.bartbonte.pink',
-  },
-  {
-    title: 'Shapik: the Quest',
-    description:
-      'This is a story of Shapik, traveling through magic forest in search of his missing sister. Explore a beautiful world, full of mystery, magic and danger and find your missing sister, solving puzzles on your way.',
-    preview: require('./showcase/shapik.jpg'),
-    publishDate: new Date(2020, 4, 22),
-    tags: ['game', 'mobile', 'desktop'],
-    website: 'https://store.steampowered.com/app/1073810/Shapik_The_Moon_Quest/',
-    appStoreUrl: 'https://apps.apple.com/app/shapik-the-quest/id1543882120',
-    playStoreUrl: 'https://play.google.com/store/apps/details?id=air.questshapikapk',
-  },
-  {
-    title: 'SimsUshare',
-    description:
-      'SimsUshare is the easiest way to create compelling Fire & Safety training simulations using your own photos. It is the #1 fire simulator training application in the Fire Service, used by tens of thousands customers',
-    preview: require('./showcase/simsushare.png'),
-    publishDate: new Date(2019, 5, 20),
-    tags: ['education', 'desktop', 'mobile'],
-    website: 'https://simsushare.com',
-  },
-  {
-    title: 'Smart Heat',
-    description: 'With an easy and intuitive interface, Smart Heat will assist you in managing your CAOS Bluetooth heater. Smart Heat can manage the entire weekly program and settings of your exclusive heater. Manage your time slots of activity, heating speed and temperature, eco settings, and led colour and intensity.',
-    preview: require('./showcase/smartheat.jpg'),
-    publishDate: new Date(2022, 7, 6),
-    tags: ['utility', 'mobile'],
-    appStoreUrl: 'https://apps.apple.com/us/app/smart-heat/id1630947067?uo=4&at=11l6hc&app=itunes&ct=fnd',
-    playStoreUrl:
-      'https://play.google.com/store/apps/details?id=air.it.caossrl.bluetooth',
-  },
-  {
-    title: 'Steampunk Idle Spinner',
-    description:
-      'Steampunk Idle Spinner is the game in which you can build incredible mad science contraptions and spectate them spin and earn money! The game has mines, cogwheels, balloons, electric field generators, vapor collector, portal and generates awesome vibes of exploration, construction and discovery.',
-    preview: require('./showcase/steampunk.png'),
-    publishDate: new Date(2017, 6, 12),
-    tags: ['game', 'mobile', 'desktop'],
-    website: 'https://airapport.itch.io/steampunk-idle-spinner',
-    appStoreUrl: 'https://itunes.apple.com/us/app/id1445575882',
-    playStoreUrl:
-      'https://play.google.com/store/apps/details?id=air.com.airapport.steampunkidlespinner',
-  },
-  {
-    title: 'Sugar game',
-    description:
-      'Draw on the screen to direct sugar into the cups. Experience the soothing puzzling with sugar particles trickling across the screen. A relaxing puzzle game from the creator of the original Flash "sugar, sugar" games.',
-    preview: require('./showcase/sugar_game.png'),
-    publishDate: new Date(2021, 10, 10),
-    tags: ['game', 'mobile'],
-    appStoreUrl: 'https://apps.apple.com/app/sugar-game/id1583933898',
-    playStoreUrl: 'https://play.google.com/store/apps/details?id=air.com.bartbonte.sugar',
-  },
-  {
-    title: 'Summoners Fate',
-    description:
-      'Summoners Fate is a tabletop inspired roguelike that fuses traditional turn-based combat with tactical card combat. Choose your Summoner and embark on ever-changing adventures in the Multiverse in search of hidden secrets, powerful cards and mutated rabbits.',
-    preview: require('./showcase/summonersFate_800x400.png'),
-    publishDate: new Date(2022, 6, 6),
-    tags: ['game', 'desktop'],
-    website: 'https://store.steampowered.com/app/1681840/Summoners_Fate/',
-  },
-  {
-    title: 'Transmutation',
-    description:
-      'You are the alchemist: medieval mad scientist! All what you have at the start is Air. But then you discover, how to get other elements: Water, Slime, Earth, Rock, Fire and so on!',
-    preview: require('./showcase/transmutation.png'),
-    publishDate: new Date(2019, 10, 12),
-    tags: ['game', 'mobile', 'desktop'],
-    website: 'https://airapport.itch.io/transmutation',
-    appStoreUrl: 'https://itunes.apple.com/us/app/transmutation-lab/id1475150795',
-    playStoreUrl:
-      'https://play.google.com/store/apps/details?id=air.com.airapport.transmutation',
-  },
-  {
-    title: 'VoltLab',
-    description: 'A fun study of the physics of electricity with VoltLab',
-    preview: require('./showcase/voltlab.png'),
-    publishDate: new Date(2019, 5, 20),
-    tags: ['education', 'mobile'],
-    appStoreUrl: 'https://apps.apple.com/ru/app/voltlab/id1461701360',
-    playStoreUrl:
-      'https://play.google.com/store/apps/details?id=air.ru.sever.ElectricalEngineering',
-  },
-  {
-    title: 'WYQS - West Yorkshire Queer Stories',
-    description: 'Use the interactive map to follow our history trail and discover Leeds’s hidden queer past. From Pride to squats, from 1840s court cases to 1990s raves, you can listen to voices from across the West Yorkshire queer community and see the city and its past in a new light.',
-    preview: require('./showcase/wyqs.jpg'),
-    publishDate: new Date(2020, 2, 13),
-    tags: ['education', 'mobile'],
-    // appStoreUrl: 'https://apps.apple.com/us/app/wyqs/id1488373705', - Not sure why today apple url does not work
-    playStoreUrl:
-      'https://play.google.com/store/apps/details?id=air.uk.co.wyqs.app',
-  },
+  // {
+  //   title: 'Epic Battle Fantasy 5',
+  //   description:
+  //     'A 30-hour turn-based RPG adventure, full of video game references, juvenile dialogue, and anime fanservice... and also strategic combat, monster catching, and tons of treasure hunting! Made with AIR and the classic Flash display list, it took over 4 years of work and sold over 100,000 copies!',
+  //   preview: require('./showcase/epicbattlefantasy5.png'),
+  //   publishDate: new Date(2018, 12, 1),
+  //   tags: ['game', 'mobile', 'desktop'],
+  //   website: 'https://store.steampowered.com/app/432350/Epic_Battle_Fantasy_5/',
+  //   appStoreUrl: 'https://apps.apple.com/mm/app/epic-battle-fantasy-5-rpg/id6443990313',
+  //   playStoreUrl: 'https://play.google.com/store/apps/details?id=air.EpicBattleFantasy5',
+  // },
+  // {
+  //   title: 'Epic Battle Fantasy 4',
+  //   description:
+  //     'A light-hearted turn-based RPG, inspired by 2D classics. You will battle through waves of enemies, grow your characters, read cringey dialogue, explore a diverse world, solve puzzles, and of course, save the world. Originally packaged with MDM Zinc, it has been updated to use AIR in the latest version.',
+  //   preview: require('./showcase/epicbattlefantasy4.png'),
+  //   publishDate: new Date(2014, 2, 26),
+  //   tags: ['game', 'desktop'],
+  //   website: 'https://store.steampowered.com/app/265610/Epic_Battle_Fantasy_4/',
+  // },
+  // {
+  //   title: 'Epic Battle Fantasy Collection',
+  //   description:
+  //     'A collection of short and silly games from the early days of the internet. There\'s turn-based RPGs, shoot-em-ups, platformers, and more - updated with new quality-of-life features. This is an AIR application that launches .swf files, both ActionScript 3 and ActionScript 2, and adds Steam features!',
+  //   preview: require('./showcase/epicbattlefantasycollection.png'),
+  //   publishDate: new Date(2009, 5, 1),
+  //   tags: ['game', 'desktop'],
+  //   website: 'https://store.steampowered.com/app/1469620/Epic_Battle_Fantasy_Collection/',
+  // },
+  // {
+  //   title: 'Factory balls',
+  //   description:
+  //     'You might think that working on the assembly line is tedious work, but not if you\'re manufacturing Factory Balls! Your job in this logic puzzle game is to custom craft each ball to a specific order. You\'ve got all the tools you need to fulfill each order... except the instruction manual.',
+  //   preview: require('./showcase/factory_balls.png'),
+  //   publishDate: new Date(2013, 5, 7),
+  //   tags: ['game', 'mobile', 'desktop'],
+  //   website: 'https://store.steampowered.com/app/1054660/Factory_Balls',
+  //   appStoreUrl: 'https://apps.apple.com/app/factory-balls-official/id641519483',
+  //   playStoreUrl: 'https://play.google.com/store/apps/details?id=air.air.FactoryBalls',
+  // },
+  // {
+  //   title: 'Farm and Mine',
+  //   description:
+  //     'Farm and mine idle tycoon combines the most fun features from idle farm tycoon games and clicker mine factory simulators. You have a vegetable farm at start. But as you grow more food, build a house, hire a farmer, drill for idle coal mining and oil pumping, you can create a farming empire and become a millionaire tycoon',
+  //   preview: require('./showcase/farm.png'),
+  //   publishDate: new Date(2021, 8, 14),
+  //   tags: ['game', 'mobile', 'desktop'],
+  //   website: 'https://airapport.itch.io/farm-and-mine',
+  //   appStoreUrl: 'https://apps.apple.com/us/app/farm-and-mine-deep-idle-ld48/id1564694016',
+  //   playStoreUrl:
+  //     'https://play.google.com/store/apps/details?id=com.airapport.farm.mine.idle.ludumdare48',
+  // },
+  // {
+  //   title: 'GameVelvet - Online Card Games and Board Games',
+  //   description:
+  //     'More than 25 board and card games available for Android, iPhone, iPad, Windows Store. The app is available in 5 languages: English, Portuguese, Italian, French, and Spanish and has more than 800,000 monthly active users in all platforms. Users can choose to play traditional card and board games with online players around the world or train with bots (AI).',
+  //   preview: require('./showcase/megajogos.png'),
+  //   publishDate: new Date(2012, 9, 27),
+  //   tags: ['game', 'mobile', 'desktop'],
+  //   website: 'https://www.megajogos.com.br',
+  //   appStoreUrl: 'https://apps.apple.com/br/app/megajogos-cartas-e-tabuleiro/id570050950',
+  //   playStoreUrl: 'https://play.google.com/store/apps/details?id=air.br.com.megajogos.mobile',
+  // },
+  // {
+  //   title: 'HD Poker',
+  //   description:
+  //     'HD Poker is the place for you to Unlock your Happy Within™, with an awesome community and the best vibes! Invite your friends and family and enjoy the most awesome and fun poker game in the world.\n\nAvailable on Steam for Windows and macOS',
+  //   preview: require('./showcase/hdpoker.jpg'),
+  //   publishDate: new Date(2018, 9, 14),
+  //   tags: ['game', 'social', 'desktop'],
+  //   website: 'https://store.steampowered.com/app/797430/HD_Poker_Texas_Holdem/',
+  // },
+  // {
+  //   title: 'Idle Tower Builder',
+  //   description:
+  //     'You are in charge of building the world highest tower. Gather or produce the necessary resources and fulfill your aim!',
+  //   preview: require('./showcase/tower.png'),
+  //   publishDate: new Date(2020, 8, 13),
+  //   tags: ['game', 'mobile', 'desktop'],
+  //   website: 'https://airapport.itch.io/idle-tower-builder',
+  //   appStoreUrl: 'https://apps.apple.com/us/app/idle-tower-builder/id1527621990',
+  //   playStoreUrl: 'https://play.google.com/store/apps/details?id=com.airapport.idletowerbuilder',
+  // },
+  // {
+  //   title: 'Pink',
+  //   description:
+  //     'Can you make the screen pink in 50 levels? Each level has its own logic. The 6th part in the colour puzzle series. After yellow, red, black, blue and green, it\'s time to solve 50 new conundrums!',
+  //   preview: require('./showcase/pink.png'),
+  //   publishDate: new Date(2021, 1, 27),
+  //   tags: ['game', 'mobile'],
+  //   appStoreUrl: 'https://apps.apple.com/app/pink-game/id1548980409',
+  //   playStoreUrl: 'https://play.google.com/store/apps/details?id=air.com.bartbonte.pink',
+  // },
+  // {
+  //   title: 'Shapik: the Quest',
+  //   description:
+  //     'This is a story of Shapik, traveling through magic forest in search of his missing sister. Explore a beautiful world, full of mystery, magic and danger and find your missing sister, solving puzzles on your way.',
+  //   preview: require('./showcase/shapik.jpg'),
+  //   publishDate: new Date(2020, 4, 22),
+  //   tags: ['game', 'mobile', 'desktop'],
+  //   website: 'https://store.steampowered.com/app/1073810/Shapik_The_Moon_Quest/',
+  //   appStoreUrl: 'https://apps.apple.com/app/shapik-the-quest/id1543882120',
+  //   playStoreUrl: 'https://play.google.com/store/apps/details?id=air.questshapikapk',
+  // },
+  // {
+  //   title: 'SimsUshare',
+  //   description:
+  //     'SimsUshare is the easiest way to create compelling Fire & Safety training simulations using your own photos. It is the #1 fire simulator training application in the Fire Service, used by tens of thousands customers',
+  //   preview: require('./showcase/simsushare.png'),
+  //   publishDate: new Date(2019, 5, 20),
+  //   tags: ['education', 'desktop', 'mobile'],
+  //   website: 'https://simsushare.com',
+  // },
+  // {
+  //   title: 'Smart Heat',
+  //   description: 'With an easy and intuitive interface, Smart Heat will assist you in managing your CAOS Bluetooth heater. Smart Heat can manage the entire weekly program and settings of your exclusive heater. Manage your time slots of activity, heating speed and temperature, eco settings, and led colour and intensity.',
+  //   preview: require('./showcase/smartheat.jpg'),
+  //   publishDate: new Date(2022, 7, 6),
+  //   tags: ['utility', 'mobile'],
+  //   appStoreUrl: 'https://apps.apple.com/us/app/smart-heat/id1630947067?uo=4&at=11l6hc&app=itunes&ct=fnd',
+  //   playStoreUrl:
+  //     'https://play.google.com/store/apps/details?id=air.it.caossrl.bluetooth',
+  // },
+  // {
+  //   title: 'Steampunk Idle Spinner',
+  //   description:
+  //     'Steampunk Idle Spinner is the game in which you can build incredible mad science contraptions and spectate them spin and earn money! The game has mines, cogwheels, balloons, electric field generators, vapor collector, portal and generates awesome vibes of exploration, construction and discovery.',
+  //   preview: require('./showcase/steampunk.png'),
+  //   publishDate: new Date(2017, 6, 12),
+  //   tags: ['game', 'mobile', 'desktop'],
+  //   website: 'https://airapport.itch.io/steampunk-idle-spinner',
+  //   appStoreUrl: 'https://itunes.apple.com/us/app/id1445575882',
+  //   playStoreUrl:
+  //     'https://play.google.com/store/apps/details?id=air.com.airapport.steampunkidlespinner',
+  // },
+  // {
+  //   title: 'Sugar game',
+  //   description:
+  //     'Draw on the screen to direct sugar into the cups. Experience the soothing puzzling with sugar particles trickling across the screen. A relaxing puzzle game from the creator of the original Flash "sugar, sugar" games.',
+  //   preview: require('./showcase/sugar_game.png'),
+  //   publishDate: new Date(2021, 10, 10),
+  //   tags: ['game', 'mobile'],
+  //   appStoreUrl: 'https://apps.apple.com/app/sugar-game/id1583933898',
+  //   playStoreUrl: 'https://play.google.com/store/apps/details?id=air.com.bartbonte.sugar',
+  // },
+  // {
+  //   title: 'Summoners Fate',
+  //   description:
+  //     'Summoners Fate is a tabletop inspired roguelike that fuses traditional turn-based combat with tactical card combat. Choose your Summoner and embark on ever-changing adventures in the Multiverse in search of hidden secrets, powerful cards and mutated rabbits.',
+  //   preview: require('./showcase/summonersFate_800x400.png'),
+  //   publishDate: new Date(2022, 6, 6),
+  //   tags: ['game', 'desktop'],
+  //   website: 'https://store.steampowered.com/app/1681840/Summoners_Fate/',
+  // },
+  // {
+  //   title: 'Transmutation',
+  //   description:
+  //     'You are the alchemist: medieval mad scientist! All what you have at the start is Air. But then you discover, how to get other elements: Water, Slime, Earth, Rock, Fire and so on!',
+  //   preview: require('./showcase/transmutation.png'),
+  //   publishDate: new Date(2019, 10, 12),
+  //   tags: ['game', 'mobile', 'desktop'],
+  //   website: 'https://airapport.itch.io/transmutation',
+  //   appStoreUrl: 'https://itunes.apple.com/us/app/transmutation-lab/id1475150795',
+  //   playStoreUrl:
+  //     'https://play.google.com/store/apps/details?id=air.com.airapport.transmutation',
+  // },
+  // {
+  //   title: 'VoltLab',
+  //   description: 'A fun study of the physics of electricity with VoltLab',
+  //   preview: require('./showcase/voltlab.png'),
+  //   publishDate: new Date(2019, 5, 20),
+  //   tags: ['education', 'mobile'],
+  //   appStoreUrl: 'https://apps.apple.com/ru/app/voltlab/id1461701360',
+  //   playStoreUrl:
+  //     'https://play.google.com/store/apps/details?id=air.ru.sever.ElectricalEngineering',
+  // },
+  // {
+  //   title: 'WYQS - West Yorkshire Queer Stories',
+  //   description: 'Use the interactive map to follow our history trail and discover Leeds’s hidden queer past. From Pride to squats, from 1840s court cases to 1990s raves, you can listen to voices from across the West Yorkshire queer community and see the city and its past in a new light.',
+  //   preview: require('./showcase/wyqs.jpg'),
+  //   publishDate: new Date(2020, 2, 13),
+  //   tags: ['education', 'mobile'],
+  //   // appStoreUrl: 'https://apps.apple.com/us/app/wyqs/id1488373705', - Not sure why today apple url does not work
+  //   playStoreUrl:
+  //     'https://play.google.com/store/apps/details?id=air.uk.co.wyqs.app',
+  // },
   /*
    Pro Tip: add your site in alphabetical order.
    Appending your application here (at the end) is more likely to produce Git conflicts.

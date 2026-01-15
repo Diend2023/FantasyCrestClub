@@ -21,61 +21,101 @@ import styles from './index.module.css';
 
 const FeatureList = [
   {
-    title: 'Cross Platform',
-    img: '/images/crossplatform.svg',
-    // img: '/images/feature_a.jpg',
-    // Svg: require('../../static/images/undraw_docusaurus_mountain.svg').default,
+    title: '幻想纹章1系列',
+    img: '/images/hxwz1.png',
     description: (
       <>
-        AIR enables developers to create and package cross platform games and applications
-        for major platforms like iOS, Android, Windows and macOS all from a single code
-        base.
-        <br />
-        <br />
-        <b>Less code means faster development!</b>
       </>
     ),
   },
   {
-    title: 'Mature Environment',
-    img: '/images/expanse.svg',
-    // img: '/images/feature_b.jpg',
-    // Svg: require('../../static/images/airsdk_box.png').default,
+    title: '幻想纹章2系列',
+    img: '/images/hxwz2.png',
     description: (
       <>
-        AIR was originally released in 2008 so has a wealth of examples, tutorials and
-        guides providing a vast resource for developers. Tooling is also mature and
-        readily available including tight integration with animation tools such as Animate
-        which make animation and asset creation easy.
       </>
     ),
   },
   {
-    title: 'Develop Locally',
-    img: '/images/simulation.png',
-    // img: '/images/air-for.png',
-    // Svg: require('../../static/images/undraw_docusaurus_react.svg').default,
+    title: '幻想纹章3系列',
+    img: '/images/hxwz3.png',
     description: (
       <>
-        While developing you can use the local AIR simulator for fast development and
-        quick iteration testing. This speeds up development time not requiring to deploy
-        to devices or even processor-heavy device simulators.
       </>
     ),
   },
   {
-    title: 'Native Extensions',
-    img: '/images/ane-icon-black-border.png',
-    // img: '/images/air-for.png',
-    // Svg: require('../../static/images/undraw_docusaurus_react.svg').default,
+    title: '幻想纹章4系列',
+    img: '/images/hxwz4.png',
     description: (
       <>
-        AIR has the ability to implement native functionality simply and there are a
-        wealth of native extensions available to AIR developers providing everything from
-        in-app billing to processing complex algorithms.
       </>
     ),
   },
+  {
+    title: '幻想纹章2Next',
+    img: '/images/hxwz2next.png',
+    description: (
+      <>
+      </>
+    ),
+  },
+  // {
+  //   title: 'Cross Platform',
+  //   img: '/images/crossplatform.svg',
+  //   // img: '/images/feature_a.jpg',
+  //   // Svg: require('../../static/images/undraw_docusaurus_mountain.svg').default,
+  //   description: (
+  //     <>
+  //       AIR enables developers to create and package cross platform games and applications
+  //       for major platforms like iOS, Android, Windows and macOS all from a single code
+  //       base.
+  //       <br />
+  //       <br />
+  //       <b>Less code means faster development!</b>
+  //     </>
+  //   ),
+  // },
+  // {
+  //   title: 'Mature Environment',
+  //   img: '/images/expanse.svg',
+  //   // img: '/images/feature_b.jpg',
+  //   // Svg: require('../../static/images/airsdk_box.png').default,
+  //   description: (
+  //     <>
+  //       AIR was originally released in 2008 so has a wealth of examples, tutorials and
+  //       guides providing a vast resource for developers. Tooling is also mature and
+  //       readily available including tight integration with animation tools such as Animate
+  //       which make animation and asset creation easy.
+  //     </>
+  //   ),
+  // },
+  // {
+  //   title: 'Develop Locally',
+  //   img: '/images/simulation.png',
+  //   // img: '/images/air-for.png',
+  //   // Svg: require('../../static/images/undraw_docusaurus_react.svg').default,
+  //   description: (
+  //     <>
+  //       While developing you can use the local AIR simulator for fast development and
+  //       quick iteration testing. This speeds up development time not requiring to deploy
+  //       to devices or even processor-heavy device simulators.
+  //     </>
+  //   ),
+  // },
+  // {
+  //   title: 'Native Extensions',
+  //   img: '/images/ane-icon-black-border.png',
+  //   // img: '/images/air-for.png',
+  //   // Svg: require('../../static/images/undraw_docusaurus_react.svg').default,
+  //   description: (
+  //     <>
+  //       AIR has the ability to implement native functionality simply and there are a
+  //       wealth of native extensions available to AIR developers providing everything from
+  //       in-app billing to processing complex algorithms.
+  //     </>
+  //   ),
+  // },
 ];
 
 const LinksList = [
@@ -101,41 +141,41 @@ const LinksList = [
   },
 ];
 
-const CodeBlocks = [
-  {
-    title: (
-      <>
-        <img src="/images/actionscript_icon.png" height="30px" /> Hello World!{' '}
-      </>
-    ),
-    description: (
-      <>
-        The code here represents a basic application that displays a text field with the
-        text "Hello World!". It demonstrates extending the base <code>Sprite</code>{' '}
-        display object and uses the <code>TextField</code> object to display the text.
-      </>
-    ),
-    language: 'actionscript',
-    codesrc: 'simple-example.as',
-    code: `package 
-{
-    import flash.display.Sprite;
-    import flash.text.TextField;
+// const CodeBlocks = [
+//   {
+//     title: (
+//       <>
+//         <img src="/images/actionscript_icon.png" height="30px" /> Hello World!{' '}
+//       </>
+//     ),
+//     description: (
+//       <>
+//         The code here represents a basic application that displays a text field with the
+//         text "Hello World!". It demonstrates extending the base <code>Sprite</code>{' '}
+//         display object and uses the <code>TextField</code> object to display the text.
+//       </>
+//     ),
+//     language: 'actionscript',
+//     codesrc: 'simple-example.as',
+//     code: `package 
+// {
+//     import flash.display.Sprite;
+//     import flash.text.TextField;
 
-    public class MyApp extends Sprite
-    {
-        private var textField : TextField;
+//     public class MyApp extends Sprite
+//     {
+//         private var textField : TextField;
         
-        public function MyApp():void 
-        {
-            textField = new TextField();
-            textField.text = "Hello World!";
-            addChild( textField );
-        }
-    }
-}`,
-  },
-];
+//         public function MyApp():void 
+//         {
+//             textField = new TextField();
+//             textField.text = "Hello World!";
+//             addChild( textField );
+//         }
+//     }
+// }`,
+//   },
+// ];
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -156,7 +196,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={styles.codeExamples}>
+        {/* <section className={styles.codeExamples}>
           <div className="container">
             <div>
               {CodeBlocks.map((props, idx) => {
@@ -168,7 +208,7 @@ export default function Home() {
               })}
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section className={styles.links}>
           <div className="container">

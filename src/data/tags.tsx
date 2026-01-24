@@ -28,7 +28,7 @@ export const Tags: Record<TagType, Tag> = {
   // DO NOT USE THIS TAG: we choose sites to add to highlight
   highlight: {
     label: 'Highlight',
-    description: '令人惊叹的应用程序，您应该查看！',
+    description: '令人惊叹的应用程序，我猜这可能是你想要的',
     icon: (
       <>
         <img src="/images/tags/highlight.png" alt="highlight" />
@@ -136,7 +136,7 @@ export const Tags: Record<TagType, Tag> = {
   },
   ruffle: {
     label: 'Ruffle',
-    description: '可以使用Ruffle在浏览器中直接运行的Flash应用程序',
+    description: '可以使用Ruffle在浏览器中直接运行的Flash应用程序，也可以选择使用flash player',
     icon: (
       <>
         <img src="/images/tags/ruffle.png" alt="ruffle" />

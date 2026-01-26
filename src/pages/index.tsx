@@ -53,7 +53,7 @@ const FeatureList = [
     ),
   },
   {
-    title: '幻想纹章2Next',
+    title: '幻想纹章2新章',
     img: '/images/hxwz2next.png',
     description: (
       <>
@@ -119,26 +119,26 @@ const FeatureList = [
 ];
 
 const LinksList = [
-  {
-    title: "Beginner's Guide",
-    Svg: require('../../static/images/get-started.svg').default,
-    description: <>Get started using AIR.</>,
-    link: '/docs/basics/getting-started',
-  },
-  {
-    title: 'Tutorials',
-    Svg: require('../../static/images/tutorial.svg').default,
-    description: (
-      <>Find tutorials from novice to expert to help you expand your skills.</>
-    ),
-    link: '/docs/tutorials',
-  },
-  {
-    title: 'Reference',
-    Svg: require('../../static/images/reference.svg').default,
-    description: <>Detailed reference documentation and step-by-step instructions.</>,
-    link: '/reference',
-  },
+  // {
+  //   title: "Beginner's Guide",
+  //   Svg: require('../../static/images/get-started.svg').default,
+  //   description: <>Get started using AIR.</>,
+  //   link: '/docs/basics/getting-started',
+  // },
+  // {
+  //   title: 'Tutorials',
+  //   Svg: require('../../static/images/tutorial.svg').default,
+  //   description: (
+  //     <>Find tutorials from novice to expert to help you expand your skills.</>
+  //   ),
+  //   link: '/docs/tutorials',
+  // },
+  // {
+  //   title: 'Reference',
+  //   Svg: require('../../static/images/reference.svg').default,
+  //   description: <>Detailed reference documentation and step-by-step instructions.</>,
+  //   link: '/reference',
+  // },
 ];
 
 // const CodeBlocks = [

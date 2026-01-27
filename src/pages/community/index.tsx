@@ -200,6 +200,34 @@ function Community() {
           }
         />
 
+        {/* 4399 - 4399幻想纹章 */}
+        <FullWidthCard
+          left={
+            <div>
+              <div>
+                <img src="/images/4399_logo.gif" />
+              </div>
+              <h3>4399幻想纹章</h3>
+              <p>
+                4399小游戏，是幻想纹章唯一上架的游戏平台，也是大多数人最早接触幻想纹章的地方。
+              </p>
+              <div>
+                <Link
+                  className="button button--primary button--md"
+                  to="https://so2.4399.com/search/search.php?k=幻想纹章"
+                >
+                  4399幻想纹章 &#10132;
+                </Link>
+              </div>
+            </div>
+          }
+          right={
+            <div className={styles.screenshot}>
+              <img src="/images/4399_screen.png" />
+            </div>
+          }
+        />
+
         {/* QQ - 腾讯频道 */}
         <FullWidthCard
           left={

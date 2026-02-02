@@ -19,7 +19,7 @@ module.exports = {
   // organizationName: 'airsdk', // Usually your GitHub org/user name.
   organizationName: '幻想纹章3交流群',
   projectName: 'FantasyCrestClub', // Usually your repo name.
-  trailingSlash: false,
+  trailingSlash: true,
   stylesheets: [
     {
       href: 'https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Noto+Sans+JP&family=Open+Sans&family=Roboto&family=Lato&display=swap',

@@ -77,12 +77,12 @@ module.exports = {
       disableSwitch: true,
     },
     footer: {
-      logo: {
-        // alt: 'AIR',
-        alt: '幻想纹章Club',
-        src: 'images/logo.svg',
-        href: '/',
-      },
+      // logo: {
+      //   // alt: 'AIR',
+      //   alt: '幻想纹章Club',
+      //   src: 'images/logo.svg',
+      //   href: '/',
+      // },
       links: [
         {
           // title: 'Docs',
@@ -103,6 +103,10 @@ module.exports = {
             //   to: '/docs/tutorials',
             // },
             {
+              label: '文档首页',
+              href: '/docs',
+            },
+            {
               label: 'Haxe',
               href: 'https://zygameui.cn/?p=haxe',
             },
@@ -117,19 +121,33 @@ module.exports = {
           // title: 'Community',
           title: '社区',
           items: [
-            { to: '/community', label: 'Community' },
-            { to: '/showcase', label: 'Showcase' },
+            // { to: '/community', label: 'Community' },
+            // { to: '/showcase', label: 'Showcase' },
+            { to: '/community', label: '社区' },
+            { to: '/showcase', label: '游戏' },
+            // {
+            //   label: 'Discussions',
+            //   href: 'https://github.com/airsdk/Adobe-Runtime-Support/discussions',
+            // },
+            // {
+            //   label: 'Starling Forum',
+            //   href: 'https://forum.starling-framework.org/',
+            // },
+            // {
+            //   label: 'Stack Overflow',
+            //   href: 'https://stackoverflow.com/questions/tagged/actionscript-3',
+            // },
             {
-              label: 'Discussions',
-              href: 'https://github.com/airsdk/Adobe-Runtime-Support/discussions',
+              label: '卓越逻辑',
+              href: 'https://zygameui.cn',
             },
             {
-              label: 'Starling Forum',
-              href: 'https://forum.starling-framework.org/',
+              label: '幻想纹章3交流群',
+              href: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=NKKmX64I09HS90RrF-0lABHCy_Pbk-ZG&authKey=KcyDbNw%2F17UKTfofV1dm4KRyvuIz7r3KF3OfZk50SFjEYvgfk5RWAhLEHBMHEsT8&noverify=0&group_code=1055702064',
             },
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/actionscript-3',
+              label: '幻想纹章4官方号',
+              href: 'https://space.bilibili.com/1120918222',
             },
           ],
         },
@@ -138,7 +156,8 @@ module.exports = {
           title: '更多',
           items: [
             {
-              label: 'News',
+              // label: 'News',
+              label: '新闻',
               to: '/news',
             },
             {
@@ -150,7 +169,7 @@ module.exports = {
         },
       ],
       // copyright: `Except as otherwise noted, this work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution 3.0</a> License, and code samples are licensed under the MIT License. <br/>Adobe, the Adobe logo, Adobe AIR, ActionScript, AIR, Flash, Flash Builder, Flash Lite, Flex, MXML, and Pixel Bender are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.<br/>Much of this content is based on the original <a href="https://help.adobe.com/en_US/air/build/index.html">Adobe developer documentation</a>`,
-      copyright: `该项目来源于<a href="https://github.com/airsdk/airsdk.dev/">airsdk.dev</a><br/>其它关于幻想纹章的内容均为原作者左眼 （<a href="https://github.com/rainyt">Rainy</a>、<a href="https://gitee.com/zygameui">左眼</a>）所有`,
+      copyright: `该项目来源于<a href="https://github.com/airsdk/airsdk.dev/">airsdk.dev</a><br/>其它关于幻想纹章的内容均为原作者左眼 （<a href="https://github.com/rainyt">Rainy</a>、<a href="https://gitee.com/zygameui">左眼</a>）所有<br/><a href="https://beian.miit.gov.cn/" target="_blank">赣ICP备2023003671号-3</a>`,
     },
   },
   presets: [

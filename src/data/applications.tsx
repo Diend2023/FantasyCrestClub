@@ -146,6 +146,8 @@ const Applications: Application[] = [
       publishDate: new Date(2025, 4, 27),
       tags: ['highlight','web', 'mobile', 'desktop', 'game'],
       website: 'http://oss.hxwz3.cn/hxwz/4/index.html',
+      windowsUrl: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=7s6dAv2pQN0FD7dNI46m4D0UjTiYMZhl&authKey=YvpDB%2BpR93JCKLrq4BzUYLiUBRws%2ByhwZEhyULFb0RE%2FYwTl1cis3upA8DAFHTIl&noverify=0&group_code=159281448',
+      androidUrl: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=7s6dAv2pQN0FD7dNI46m4D0UjTiYMZhl&authKey=YvpDB%2BpR93JCKLrq4BzUYLiUBRws%2ByhwZEhyULFb0RE%2FYwTl1cis3upA8DAFHTIl&noverify=0&group_code=159281448',
   },
   {
       title: '幻想纹章2.2',
@@ -154,6 +156,8 @@ const Applications: Application[] = [
       publishDate: new Date(),
       tags: ['highlight','ruffle', 'mobile', 'desktop', 'game'],
       website: 'https://oss.hxwz3.cn/hxwz/2.2/hxwz.html',
+      windowsUrl: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TAMtzC2Q3wLvQhWTXrwK420ic3wvoX2X&authKey=WWfXbh9wx%2BURjCuc6pxwr1t90CN3tthSIXpDlGaQR4fmCDNlWYmrJ%2Fuap0Ydrjsg&noverify=0&group_code=834796120',
+      androidUrl: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TAMtzC2Q3wLvQhWTXrwK420ic3wvoX2X&authKey=WWfXbh9wx%2BURjCuc6pxwr1t90CN3tthSIXpDlGaQR4fmCDNlWYmrJ%2Fuap0Ydrjsg&noverify=0&group_code=834796120',
   },
   {
       title: '幻想纹章1.0',
@@ -202,6 +206,8 @@ const Applications: Application[] = [
       publishDate: new Date(),
       tags: ['highlight','flash', 'mobile', 'desktop', 'game'],
       website: 'https://oss.hxwz3.cn/hxwz/3/hxwz.html',
+      windowsUrl: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=NKKmX64I09HS90RrF-0lABHCy_Pbk-ZG&authKey=KcyDbNw%2F17UKTfofV1dm4KRyvuIz7r3KF3OfZk50SFjEYvgfk5RWAhLEHBMHEsT8&noverify=0&group_code=1055702064',
+      androidUrl: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=NKKmX64I09HS90RrF-0lABHCy_Pbk-ZG&authKey=KcyDbNw%2F17UKTfofV1dm4KRyvuIz7r3KF3OfZk50SFjEYvgfk5RWAhLEHBMHEsT8&noverify=0&group_code=1055702064',
   },
   // {
   //     title: 'FlashWords AAC',
@@ -536,6 +542,8 @@ function ensureApplicationValid(application: Application) {
       'playStoreUrl',
       'tags',
       'publishDate',
+      'windowsUrl',
+      'androidUrl',
     ];
     const unknownKeys = difference(keys, validKeys);
     if (unknownKeys.length > 0) {

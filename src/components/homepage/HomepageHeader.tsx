@@ -23,7 +23,7 @@ export default function HomepageHeader() {
               >
                 开始游玩
               </Link>
-              <Link className="button button--primary button--lg" to="/docs/tutorials">
+              <Link className="button button--primary button--lg" to="/docs">
                 了解更多 &#10132;
               </Link>
             </div>

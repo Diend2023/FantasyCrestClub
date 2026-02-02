@@ -75,7 +75,7 @@ function Community() {
         {/* QQ - QQ群 */}
         <FullWidthCard
           left={
-            <div>
+            <div id="qq_group">
               <div>
                 <img src="/images/qq_group_logo.svg" />
               </div>
@@ -86,7 +86,7 @@ function Community() {
               <div>
                 <Link
                   className="button button--primary button--md"
-                  to="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=7s6dAv2pQN0FD7dNI46m4D0UjTiYMZhl&authKey=YvpDB%2BpR93JCKLrq4BzUYLiUBRws%2ByhwZEhyULFb0RE%2FYwTl1cis3upA8DAFHTIl&noverify=0&group_code=159281448"
+                  to="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=7s6dAv2pQN0FD7dNI46m4D0UjTiYMZhl&authKey=YvpDB%2BpR93JCKLrq4BzUYLiUBRws%2ByhwZEhyULFb0RE%2FYwTl1cis3upA8DAFHTIl&noverify=0&group_code=159281448"
                 >
                   幻想纹章官方交流群 &#10132;
                 </Link>
@@ -95,7 +95,7 @@ function Community() {
               <div>
                 <Link
                   className="button button--primary button--md"
-                  to="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=4usaWCuebphdnZUYRePZTEmhRGkdtj0X&authKey=jY9MZ85xcC%2Biax2cliQ1Q4nopA4CHbW4W9QPrSim%2BsUEvN840v5zonUih7WyHByG&noverify=0&group_code=819801973"
+                  to="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=4usaWCuebphdnZUYRePZTEmhRGkdtj0X&authKey=jY9MZ85xcC%2Biax2cliQ1Q4nopA4CHbW4W9QPrSim%2BsUEvN840v5zonUih7WyHByG&noverify=0&group_code=819801973"
                 >
                   幻想纹章官方交流2群 &#10132;
                 </Link>
@@ -104,7 +104,7 @@ function Community() {
               <div>
                 <Link
                   className="button button--primary button--md"
-                  to="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=kq4mtuaAnUKaPq6absueyJX7qD2erLdW&authKey=zZd77ZYsJfOJi2OYwdFnk7nJvsV%2FSzCcqtYB4KBuDQgUNf%2F0TrHaxkTveJCOcImD&noverify=0&group_code=1050779265"
+                  to="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=kq4mtuaAnUKaPq6absueyJX7qD2erLdW&authKey=zZd77ZYsJfOJi2OYwdFnk7nJvsV%2FSzCcqtYB4KBuDQgUNf%2F0TrHaxkTveJCOcImD&noverify=0&group_code=1050779265"
                 >
                   幻想纹章4交流群 &#10132;
                 </Link>
@@ -113,7 +113,7 @@ function Community() {
               <div>
                 <Link
                   className="button button--primary button--md"
-                  to="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=NKKmX64I09HS90RrF-0lABHCy_Pbk-ZG&authKey=KcyDbNw%2F17UKTfofV1dm4KRyvuIz7r3KF3OfZk50SFjEYvgfk5RWAhLEHBMHEsT8&noverify=0&group_code=1055702064"
+                  to="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=NKKmX64I09HS90RrF-0lABHCy_Pbk-ZG&authKey=KcyDbNw%2F17UKTfofV1dm4KRyvuIz7r3KF3OfZk50SFjEYvgfk5RWAhLEHBMHEsT8&noverify=0&group_code=1055702064"
                 >
                   幻想纹章3交流群 &#10132;
                 </Link>
@@ -122,7 +122,7 @@ function Community() {
               <div>
                 <Link
                   className="button button--primary button--md"
-                  to="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TK0P0CIpBwhyCQiEEzUsJOwpPlp94P0n&authKey=tWr7ZOyeLeP10NaUdxj9B7VaQtVXGwRxunCFDWH1nM%2FDIDCuWHD1lyAmLMUzOJq4&noverify=0&group_code=1071290329"
+                  to="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TK0P0CIpBwhyCQiEEzUsJOwpPlp94P0n&authKey=tWr7ZOyeLeP10NaUdxj9B7VaQtVXGwRxunCFDWH1nM%2FDIDCuWHD1lyAmLMUzOJq4&noverify=0&group_code=1071290329"
                 >
                   幻想纹章3交流2群 &#10132;
                 </Link>
@@ -131,7 +131,7 @@ function Community() {
               <div>
                 <Link
                   className="button button--primary button--md"
-                  to="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TAMtzC2Q3wLvQhWTXrwK420ic3wvoX2X&authKey=WWfXbh9wx%2BURjCuc6pxwr1t90CN3tthSIXpDlGaQR4fmCDNlWYmrJ%2Fuap0Ydrjsg&noverify=0&group_code=834796120"
+                  to="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TAMtzC2Q3wLvQhWTXrwK420ic3wvoX2X&authKey=WWfXbh9wx%2BURjCuc6pxwr1t90CN3tthSIXpDlGaQR4fmCDNlWYmrJ%2Fuap0Ydrjsg&noverify=0&group_code=834796120"
                 >
                   幻想纹章萌新群 &#10132;
                 </Link>
@@ -139,7 +139,7 @@ function Community() {
             </div>
           }
           right={
-            <div className={styles.screenshot}>
+            <div className={styles.screenshot} id="qq_group">
               <img src="/images/qq_group_screen.png" />
             </div>
           }

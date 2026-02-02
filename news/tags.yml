@@ -1,9 +1,14 @@
-airsdk: 
-  label: "AIR SDK"
-  description: "News about the AIR SDK"
-  permalink: /airsdk
+# airsdk: 
+#   label: "AIR SDK"
+#   description: "News about the AIR SDK"
+#   permalink: /airsdk
 
-updates:
-  label: "Updates"
-  description: "Latest updates and releases"
-  permalink: /updates
+# updates:
+#   label: "Updates"
+#   description: "Latest updates and releases"
+#   permalink: /updates
+
+幻想纹章Club:
+  label: "幻想纹章Club"
+  description: "关于本站的更新"
+  permalink: /fantasycrestclub

@@ -1,16 +1,22 @@
-marchbold:
-  name: Michael
-  title: Developer at distriqt
-  url: https://github.com/marchbold
-  image_url: https://avatars3.githubusercontent.com/u/442356?s=460&v=4
+# marchbold:
+#   name: Michael
+#   title: Developer at distriqt
+#   url: https://github.com/marchbold
+#   image_url: https://avatars3.githubusercontent.com/u/442356?s=460&v=4
 
-distriqt:
-  name: distriqt
-  url: https://github.com/distriqt
-  image_url: https://avatars3.githubusercontent.com/u/532565?s=460&v=4
+# distriqt:
+#   name: distriqt
+#   url: https://github.com/distriqt
+#   image_url: https://avatars3.githubusercontent.com/u/532565?s=460&v=4
 
-jan: 
-  name: Jan
-  title: Developer at Dallmeier electronic GmbH
-  url: https://github.com/2jfw
-  image_url: https://avatars.githubusercontent.com/u/73781224?v=4
+# jan: 
+#   name: Jan
+#   title: Developer at Dallmeier electronic GmbH
+#   url: https://github.com/2jfw
+#   image_url: https://avatars.githubusercontent.com/u/73781224?v=4
+
+Diend2023:
+  name: Diend2023
+  title: 幻想纹章3 维护
+  url:  https://github.com/Diend2023
+  image_url: https://avatars.githubusercontent.com/u/103641773?v=4

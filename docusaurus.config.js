@@ -9,7 +9,12 @@ module.exports = {
     url: 'https://hxwz.wanqifan.top',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  // onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   favicon: 'favicon.ico',
   // organizationName: 'airsdk', // Usually your GitHub org/user name.
   organizationName: '幻想纹章3交流群',

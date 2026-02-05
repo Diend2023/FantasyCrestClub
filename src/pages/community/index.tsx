@@ -133,7 +133,7 @@ function Community() {
                   className="button button--primary button--md"
                   to="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TAMtzC2Q3wLvQhWTXrwK420ic3wvoX2X&authKey=WWfXbh9wx%2BURjCuc6pxwr1t90CN3tthSIXpDlGaQR4fmCDNlWYmrJ%2Fuap0Ydrjsg&noverify=0&group_code=834796120"
                 >
-                  幻想纹章萌新群 &#10132;
+                  幻想纹章2萌新群 &#10132;
                 </Link>
               </div>
             </div>

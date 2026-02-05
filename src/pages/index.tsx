@@ -53,7 +53,7 @@ const FeatureList = [
     ),
   },
   {
-    title: '幻想纹章2新章',
+    title: '幻想纹章2新篇',
     // img: '/images/hxwz2next.png',
     description: (
       <>

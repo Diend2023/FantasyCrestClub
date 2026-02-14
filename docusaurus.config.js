@@ -174,7 +174,7 @@ module.exports = {
         },
       ],
       // copyright: `Except as otherwise noted, this work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution 3.0</a> License, and code samples are licensed under the MIT License. <br/>Adobe, the Adobe logo, Adobe AIR, ActionScript, AIR, Flash, Flash Builder, Flash Lite, Flex, MXML, and Pixel Bender are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.<br/>Much of this content is based on the original <a href="https://help.adobe.com/en_US/air/build/index.html">Adobe developer documentation</a>`,
-      copyright: `该项目来源于<a href="https://github.com/airsdk/airsdk.dev/">airsdk.dev</a><br/>其它关于幻想纹章的内容均为原作者左眼 （<a href="https://github.com/rainyt">Rainy</a>、<a href="https://gitee.com/zygameui">左眼</a>）所有<br/><a href="https://beian.miit.gov.cn/" target="_blank">赣ICP备2023003671号-3</a>`,
+      copyright: `该项目来源于<a href="https://github.com/airsdk/airsdk.dev/">airsdk.dev</a><br/>其它关于幻想纹章的内容均为原作者左眼 （<a href="https://github.com/rainyt">Rainy</a>、<a href="https://gitee.com/zygameui">左眼</a>）所有<br/><img src="/images/gongan.png"><a href="https://beian.mps.gov.cn/#/query/webSearch?code=36010602000383" rel="noreferrer" target="_blank">赣公网安备36010602000383号</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://beian.miit.gov.cn/" target="_blank">赣ICP备2023003671号-3</a>`,
     },
   },
   presets: [

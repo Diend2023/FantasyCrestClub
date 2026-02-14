@@ -12,3 +12,18 @@
   label: "幻想纹章Club"
   description: "关于本站的更新"
   permalink: /fantasycrestclub
+
+幻想纹章4:
+  label: "幻想纹章4"
+  description: "关于幻想纹章4"
+  permalink: /hxwz4
+
+本地版:
+  label: "本地版"
+  description: "安装到电脑上的版本，一般都支持联机功能"
+  permalink: /local
+
+更新:
+  label: "更新"
+  description: "关于游戏的更新和维护"
+  permalink: /updates

@@ -13,6 +13,11 @@
   description: "关于本站的更新"
   permalink: /fantasycrestclub
 
+幻想纹章3:
+  label: "幻想纹章3"
+  description: "关于幻想纹章3"
+  permalink: /hxwz3
+
 幻想纹章4:
   label: "幻想纹章4"
   description: "关于幻想纹章4"
@@ -22,6 +27,11 @@
   label: "本地版"
   description: "安装到电脑上的版本，一般都支持联机功能"
   permalink: /local
+
+手机版:
+  label: "手机版"
+  description: "安装到手机上的版本，一般都支持联机功能"
+  permalink: /mobile
 
 更新:
   label: "更新"

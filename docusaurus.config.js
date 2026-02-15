@@ -22,7 +22,8 @@ module.exports = {
   trailingSlash: true,
   stylesheets: [
     {
-      href: 'https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Noto+Sans+JP&family=Open+Sans&family=Roboto&family=Lato&display=swap',
+      // href: 'https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Noto+Sans+JP&family=Open+Sans&family=Roboto&family=Lato&display=swap',
+      href: '/css2.css',
       type: 'text/css',
     },
   ],

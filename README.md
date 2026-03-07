@@ -1,39 +1,22 @@
-
-<p align="center">
-    <a href="https://airsdk.dev" rel="noopener" target="_blank">
-        <img width="150" 
-            src="https://raw.githubusercontent.com/airsdk/airsdk.dev/main/static/images/air-logo.png" 
-            alt="AIR SDK logo">
-    </a>
-</p>
-
-<h1 align="center">airsdk.dev</h1>
+<h1 align="center">幻想纹章Club</h1>
 
 <div align="center">
-    Source for the airsdk.dev site. Site for developer news, information, tutorials, guides and reference for using the AIR SDK.
+    幻想纹章Club的源码。在这里，你可以找到关于幻想纹章系列游戏的各种资料和资源，在线游戏，或者加入社区交流。
 </div>
-
-
-
 
 ---
 
+<!-- ## Contributing
 
+Read the [contributing guide](CONTRIBUTING.md) to learn about how you can contribute to the air sdk developer site. -->
 
-## Contributing
+## 构建
 
-Read the [contributing guide](CONTRIBUTING.md) to learn about how you can contribute to the air sdk developer site.
+### 环境要求
 
+- [Node.js](https://nodejs.org/en/download/) 版本 >= 12.13.0 或者更高 (使用 `node -v` 命令获取当前版本号). 或者你可以使用 [`nvm`](https://github.com/nvm-sh/nvm) 管理多版本Node.js。
 
-## Building
-
-### Requirements
-
-- [Node.js](https://nodejs.org/en/download/) version >= 12.13.0 or above (which can be checked by running `node -v`). You can use [`nvm`](https://github.com/nvm-sh/nvm) for managing multiple Node versions on a single machine installed
-
-
-
-### Project structure
+### 项目结构
 
 ```
 ├── news
@@ -59,32 +42,31 @@ Read the [contributing guide](CONTRIBUTING.md) to learn about how you can contri
 └── yarn.lock
 ```
 
-- `news` contains news articles. Generally these will only be published by Harman.
-- `docs` contains the documentation markdown. This includes tutorials, guides and the developer articles. 
-- `reference` contains the AIR and ActionScript reference materials. 
-- `src` contains the site source.
+- `news` 与幻想纹章相关的新闻，持续更新中。
+- `docs` 与幻想纹章相关的文档，包含教程、技术文档、代码解析等等，待更新。
+- `reference` 已弃用。
+- `src` 项目使用的资源。
 
+### 安装第三方模块
 
-### Installing packages 
-
-When you start developing you should ensure you have all the node packages installed on your machine by running:
+如果你准备好要开发此项目，可以在下载该项目后在项目根目录运行：
 
 ```
 npm install
 ```
 
-This will download and install the packages required for the site.
+这将下载该项目所需要的第三方模块。
 
+### 运行开发服务端
 
-
-### Running the development server
-
-To preview your changes as you edit the files, you can run a local development server that will serve your website and reflect the latest changes.
+如果你需要预览修改的效果，你可以运行：
 
 ```
 npm run start
 ```
 
-By default, a browser window will open at `http://localhost:3000`.
+如果编译没有问题，你可以在这个地址访问网站： `http://localhost:3000`。
 
+## 声明
 
+该项目源码来源于[airsdk.dev](https://github.com/airsdk/airsdk.dev)

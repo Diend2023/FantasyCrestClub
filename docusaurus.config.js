@@ -6,7 +6,7 @@ module.exports = {
     // 'Develop beautiful cross-platform applications from a single code base using the AIR SDK and ActionScript',
     '在这里，你可以找到关于幻想纹章系列游戏的各种资料和资源，在线游戏，或者加入社区交流',
   // url: 'https://airsdk.dev',
-    url: 'https://hxwz.wanqifan.top',
+    url: 'https://hxwz3.cn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   // onBrokenMarkdownLinks: 'warn',

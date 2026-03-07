@@ -13,6 +13,11 @@
   description: "关于本站的更新"
   permalink: /fantasycrestclub
 
+幻想纹章2:
+  label: "幻想纹章2"
+  description: "关于幻想纹章2"
+  permalink: /hxwz2
+
 幻想纹章3:
   label: "幻想纹章3"
   description: "关于幻想纹章3"
@@ -22,6 +27,16 @@
   label: "幻想纹章4"
   description: "关于幻想纹章4"
   permalink: /hxwz4
+
+幻想纹章新篇:
+  label: "幻想纹章新篇"
+  description: "关于幻想纹章新篇"
+  permalink: /hxwznext
+
+4399幻想纹章:
+  label: "4399幻想纹章"
+  description: "4399上的幻想纹章"
+  permalink: /4399hxwz
 
 本地版:
   label: "本地版"
@@ -37,3 +52,8 @@
   label: "更新"
   description: "关于游戏的更新和维护"
   permalink: /updates
+
+发布:
+  label: "发布"
+  description: "新的游戏的发布和上线"
+  permalink: /releases

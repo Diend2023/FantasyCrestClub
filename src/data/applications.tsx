@@ -209,6 +209,14 @@ const Applications: Application[] = [
       windowsUrl: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=NKKmX64I09HS90RrF-0lABHCy_Pbk-ZG&authKey=KcyDbNw%2F17UKTfofV1dm4KRyvuIz7r3KF3OfZk50SFjEYvgfk5RWAhLEHBMHEsT8&noverify=0&group_code=1055702064',
       androidUrl: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=NKKmX64I09HS90RrF-0lABHCy_Pbk-ZG&authKey=KcyDbNw%2F17UKTfofV1dm4KRyvuIz7r3KF3OfZk50SFjEYvgfk5RWAhLEHBMHEsT8&noverify=0&group_code=1055702064',
   },
+  {
+      title: '4399幻想纹章新篇',
+      description: '幻想纹章新篇，以最大化还原幻想纹章2为前提重制游戏版本，目前已在4399上发布。',
+      preview: require('./showcase/4399hxwznext.png'),
+      publishDate: new Date(2026, 1, 4),
+      tags: ['highlight','web', 'game'],
+      website: 'https://www.4399.com/flash/258059.htm',
+  },
   // {
   //     title: 'FlashWords AAC',
   //     description: 'FlashWords AAC is an application for the Early Reading method which is successfully applied in the education of children with a delayed development that also affects speech development (e.g. Down Syndrom). The main goal is to support speech development. ',

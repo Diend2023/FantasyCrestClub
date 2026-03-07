@@ -228,6 +228,34 @@ function Community() {
           }
         />
 
+        {/* 网站 - 幻纹笔记 */}
+        <FullWidthCard
+          left={
+            <div>
+              <div>
+                <img src="/images/tags/web.png" />
+              </div>
+              <h3>幻纹笔记</h3>
+              <p>
+                幻纹笔记【hxwz2.cn】，是灵风创建的幻想纹章2及幻想纹章2新章官网，可以登录注册并发布、下载角色包。
+              </p>
+              <div>
+                <Link
+                  className="button button--primary button--md"
+                  to="https://hxwz2.cn/"
+                >
+                  幻纹笔记 &#10132;
+                </Link>
+              </div>
+            </div>
+          }
+          right={
+            <div className={styles.screenshot}>
+              <img src="/images/hxwz2.cn_screen.png" />
+            </div>
+          }
+        />
+
         {/* QQ - 腾讯频道 */}
         <FullWidthCard
           left={
@@ -261,34 +289,6 @@ function Community() {
           right={
             <div className={styles.screenshot}>
               <img src="/images/txpd_screen.png" />
-            </div>
-          }
-        />
-
-        {/* 网站 - 幻纹笔记 */}
-        <FullWidthCard
-          left={
-            <div>
-              <div>
-                <img src="/images/tags/web.png" />
-              </div>
-              <h3>幻纹笔记</h3>
-              <p>
-                幻纹笔记【hxwz2.cn】，是灵风创建的幻想纹章2及幻想纹章2新章网站，可以登录注册并发布、下载角色包。
-              </p>
-              <div>
-                <Link
-                  className="button button--primary button--md"
-                  to="https://hxwz2.cn/"
-                >
-                  幻纹笔记 &#10132;
-                </Link>
-              </div>
-            </div>
-          }
-          right={
-            <div className={styles.screenshot}>
-              <img src="/images/hxwz2.cn_screen.png" />
             </div>
           }
         />

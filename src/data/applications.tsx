@@ -62,7 +62,7 @@ const Applications: Application[] = [
   {
       title: '4399幻想纹章',
       description: '在4399上能找到的最早的幻想纹章版本，非常适合去考古一波。',
-      preview: require('./showcase/4399hxwz.png'),
+      preview: require('./showcase/4399hxwz.webp'),
       publishDate: new Date(2013, 9, 4),
       tags: ['highlight','ruffle', 'game'],
       website: 'https://www.4399.com/flash/122702.htm',
@@ -70,7 +70,7 @@ const Applications: Application[] = [
   {
       title: '4399幻想纹章1.3',
       description: '在4399上仅存幻想纹章1系列中的1.3版本，幻想纹章[14.3.24.0][死神篇]版本1.3。',
-      preview: require('./showcase/4399hxwz1.3.png'),
+      preview: require('./showcase/4399hxwz1.3.webp'),
       publishDate: new Date(2014, 4, 4),
       tags: ['ruffle', 'game'],
       website: 'https://www.4399.com/flash/134104.htm',
@@ -78,7 +78,7 @@ const Applications: Application[] = [
   {
       title: '4399幻想纹章1.5',
       description: '在4399上仅存幻想纹章1系列中的1.5版本，幻想纹章[14.7.30.0][苍翼·暑假·福利篇]版本1.5。',
-      preview: require('./showcase/4399hxwz1.5.png'),
+      preview: require('./showcase/4399hxwz1.5.webp'),
       publishDate: new Date(2014, 8, 7),
       tags: ['ruffle', 'game'],
       website: 'https://www.4399.com/flash/141392.htm',
@@ -86,7 +86,7 @@ const Applications: Application[] = [
   {
       title: '4399幻想纹章4',
       description: '在4399上幻想纹章4的第一个版本。',
-      preview: require('./showcase/4399hxwz4.png'),
+      preview: require('./showcase/4399hxwz4.webp'),
       publishDate: new Date(2020, 3, 25),
       tags: ['web', 'game'],
       website: 'https://www.4399.com/flash/212000.htm',
@@ -94,7 +94,7 @@ const Applications: Application[] = [
   {
       title: '4399幻想纹章4.1',
       description: '在4399上的幻想纹章4.1。',
-      preview: require('./showcase/4399hxwz4.1.png'),
+      preview: require('./showcase/4399hxwz4.1.webp'),
       publishDate: new Date(2020, 5, 2),
       tags: ['web', 'game'],
       website: 'https://www.4399.com/flash/212791.htm',
@@ -102,7 +102,7 @@ const Applications: Application[] = [
   {
       title: '4399幻想纹章4.2',
       description: '在4399上的幻想纹章4.2。',
-      preview: require('./showcase/4399hxwz4.2.png'),
+      preview: require('./showcase/4399hxwz4.2.webp'),
       publishDate: new Date(2020, 5, 29),
       tags: ['web', 'game'],
       website: 'https://www.4399.com/flash/213420.htm',
@@ -110,7 +110,7 @@ const Applications: Application[] = [
   {
       title: '4399幻想纹章4.3',
       description: '在4399上的幻想纹章4.3。',
-      preview: require('./showcase/4399hxwz4.3.png'),
+      preview: require('./showcase/4399hxwz4.3.webp'),
       publishDate: new Date(2020, 11, 21),
       tags: ['web', 'game'],
       website: 'https://www.4399.com/flash/216817.htm',
@@ -118,7 +118,7 @@ const Applications: Application[] = [
   {
       title: '4399幻想纹章4.4',
       description: '在4399上的幻想纹章4.4。',
-      preview: require('./showcase/4399hxwz4.4.png'),
+      preview: require('./showcase/4399hxwz4.4.webp'),
       publishDate: new Date(2021, 2, 6),
       tags: ['web', 'game'],
       website: 'https://www.4399.com/flash/218213.htm',
@@ -126,25 +126,33 @@ const Applications: Application[] = [
   {
       title: '4399幻想纹章4.5',
       description: '在4399上的幻想纹章4.5。',
-      preview: require('./showcase/4399hxwz4.5.png'),
+      preview: require('./showcase/4399hxwz4.5.webp'),
       publishDate: new Date(2021, 5, 5),
       tags: ['web', 'game'],
       website: 'https://www.4399.com/flash/219269.htm',
   },
   {
       title: '4399幻想纹章4.6',
-      description: '在4399上幻想纹章4的最新版本。',
-      preview: require('./showcase/4399hxwz4.6.png'),
+      description: '在4399上幻想纹章4.6。',
+      preview: require('./showcase/4399hxwz4.6.webp'),
       publishDate: new Date(2022, 1, 16),
-      tags: ['highlight','web', 'game'],
+      tags: ['web', 'game'],
       website: 'https://www.4399.com/flash/225044.htm',
+  },
+  {
+      title: '4399幻想纹章4.7',
+      description: '在4399上幻想纹章4的最新版本。',
+      preview: require('./showcase/4399hxwz4.7.webp'),
+      publishDate: new Date(2026, 3, 10),
+      tags: ['highlight', 'web', 'game'],
+      website: 'https://www.4399.com/flash/258701.htm',
   },
   {
       title: '幻想纹章4',
       description: '幻想纹章4的最新版本。使用网页版游玩时，如果需要联机，请务必使用http访问。',
-      preview: require('./showcase/hxwz4.png'),
+      preview: require('./showcase/hxwz4.webp'),
       publishDate: new Date(2025, 4, 27),
-      tags: ['highlight','web', 'mobile', 'desktop', 'game'],
+      tags: ['highlight', 'web', 'mobile', 'desktop', 'game'],
       website: 'http://oss.hxwz3.cn/hxwz/4/index.html',
       windowsUrl: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=7s6dAv2pQN0FD7dNI46m4D0UjTiYMZhl&authKey=YvpDB%2BpR93JCKLrq4BzUYLiUBRws%2ByhwZEhyULFb0RE%2FYwTl1cis3upA8DAFHTIl&noverify=0&group_code=159281448',
       androidUrl: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=7s6dAv2pQN0FD7dNI46m4D0UjTiYMZhl&authKey=YvpDB%2BpR93JCKLrq4BzUYLiUBRws%2ByhwZEhyULFb0RE%2FYwTl1cis3upA8DAFHTIl&noverify=0&group_code=159281448',
@@ -152,7 +160,7 @@ const Applications: Application[] = [
   {
       title: '幻想纹章2.2',
       description: '幻想纹章2系列原版的最终版本，由灵风修复并提供。',
-      preview: require('./showcase/hxwz2.2.png'),
+      preview: require('./showcase/hxwz2.2.webp'),
       publishDate: new Date(),
       tags: ['highlight','ruffle', 'mobile', 'desktop', 'game'],
       website: 'https://oss.hxwz3.cn/hxwz/2.2/hxwz.html',
@@ -162,7 +170,7 @@ const Applications: Application[] = [
   {
       title: '幻想纹章1.0',
       description: '幻想纹章1.0，由碎风修复并提供。',
-      preview: require('./showcase/hxwz1.0.png'),
+      preview: require('./showcase/hxwz1.0.webp'),
       publishDate: new Date(),
       tags: ['ruffle', 'game'],
       website: 'https://oss.hxwz3.cn/hxwz/1.0/hxwz.html',
@@ -170,7 +178,7 @@ const Applications: Application[] = [
   {
       title: '幻想纹章1.1',
       description: '幻想纹章1.1，由碎风修复并提供。',
-      preview: require('./showcase/hxwz1.1.png'),
+      preview: require('./showcase/hxwz1.1.webp'),
       publishDate: new Date(),
       tags: ['ruffle', 'game'],
       website: 'https://oss.hxwz3.cn/hxwz/1.1/hxwz.html',
@@ -178,7 +186,7 @@ const Applications: Application[] = [
   {
       title: '幻想纹章1.2',
       description: '幻想纹章1.2，由碎风修复并提供。',
-      preview: require('./showcase/hxwz1.2.png'),
+      preview: require('./showcase/hxwz1.2.webp'),
       publishDate: new Date(),
       tags: ['ruffle', 'game'],
       website: 'https://oss.hxwz3.cn/hxwz/1.2/hxwz.html',
@@ -186,7 +194,7 @@ const Applications: Application[] = [
   {
       title: '幻想纹章1.6',
       description: '幻想纹章1.6，由碎风修复并提供。',
-      preview: require('./showcase/hxwz1.6.png'),
+      preview: require('./showcase/hxwz1.6.webp'),
       publishDate: new Date(),
       tags: ['ruffle', 'game'],
       website: 'https://oss.hxwz3.cn/hxwz/1.6/hxwz.html',
@@ -194,7 +202,7 @@ const Applications: Application[] = [
   {
       title: '幻想纹章1.7',
       description: '幻想纹章1.7，由碎风修复并提供。',
-      preview: require('./showcase/hxwz1.7.png'),
+      preview: require('./showcase/hxwz1.7.webp'),
       publishDate: new Date(),
       tags: ['ruffle', 'game'],
       website: 'https://oss.hxwz3.cn/hxwz/1.7/hxwz.html',
@@ -202,7 +210,7 @@ const Applications: Application[] = [
   {
       title: '幻想纹章3',
       description: '幻想纹章3，由幻想纹章3交流群修复并提供。使用网页版游玩时，必须使用flash。',
-      preview: require('./showcase/hxwz3.png'),
+      preview: require('./showcase/hxwz3.webp'),
       publishDate: new Date(),
       tags: ['highlight','flash', 'mobile', 'desktop', 'game'],
       website: 'https://oss.hxwz3.cn/hxwz/3/hxwz.html',
@@ -212,7 +220,7 @@ const Applications: Application[] = [
   {
       title: '4399幻想纹章新篇',
       description: '幻想纹章新篇，以最大化还原幻想纹章2为前提重制游戏版本，目前已在4399上发布。',
-      preview: require('./showcase/4399hxwznext.png'),
+      preview: require('./showcase/4399hxwznext.webp'),
       publishDate: new Date(2026, 1, 4),
       tags: ['highlight','web', 'game'],
       website: 'https://www.4399.com/flash/258059.htm',

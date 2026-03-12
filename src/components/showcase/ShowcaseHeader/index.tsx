@@ -13,7 +13,7 @@ export default function ShowcaseHeader({ title, description, linkText, linkUrl }
           <h1 className="hero__title">{title}</h1>
 
           <div>
-            <img src="/images/air_showcase.png" />
+            <img src="/images/air_showcase.webp" />
           </div>
 
           <p className="hero__subtitle">{description}</p>

@@ -22,7 +22,7 @@ import styles from './index.module.css';
 const FeatureList = [
   {
     title: '幻想纹章1系列',
-    img: '/images/hxwz1.png',
+    img: '/images/hxwz1.webp',
     description: (
       <>
       </>
@@ -30,7 +30,7 @@ const FeatureList = [
   },
   {
     title: '幻想纹章2系列',
-    img: '/images/hxwz2.png',
+    img: '/images/hxwz2.webp',
     description: (
       <>
       </>
@@ -38,7 +38,7 @@ const FeatureList = [
   },
   {
     title: '幻想纹章3系列',
-    img: '/images/hxwz3.png',
+    img: '/images/hxwz3.webp',
     description: (
       <>
       </>
@@ -46,7 +46,7 @@ const FeatureList = [
   },
   {
     title: '幻想纹章4系列',
-    img: '/images/hxwz4.png',
+    img: '/images/hxwz4.webp',
     description: (
       <>
       </>
@@ -54,7 +54,7 @@ const FeatureList = [
   },
   {
     title: '幻想纹章新篇',
-    img: '/images/hxwznext.png',
+    img: '/images/hxwznext.webp',
     description: (
       <>
       </>

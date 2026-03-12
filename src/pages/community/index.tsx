@@ -7,9 +7,9 @@ import FullWidthCard from '../../components/general/FullWidthCard';
 import Link from '@docusaurus/Link';
 import styles from './index.module.css';
 
-const TITLE = '幻想纹章 社区';
+const TITLE = '社区';
 const DESCRIPTION =
-  '幻想纹章已经存在多年，所以你会在很多地方找到相关内容。这里我们列出了幻想纹章的各种社区。';
+  '幻想纹章已经发展多年，所以你会在很多地方找到相关内容。这里我们列出了幻想纹章的各种社区。';
 
 function Community() {
   return (
@@ -39,7 +39,7 @@ function Community() {
           }
           right={
             <div className={styles.screenshot}>
-              <img src="/images/zygameui.cn_screen.png" />
+              <img src="/images/zygameui.cn_screen.webp" />
             </div>
           }
         />
@@ -67,7 +67,7 @@ function Community() {
           }
           right={
             <div className={styles.screenshot}>
-              <img src="/images/hxwz3.cn_screen.png" />
+              <img src="/images/hxwz3.cn_screen.webp" />
             </div>
           }
         />
@@ -140,7 +140,7 @@ function Community() {
           }
           right={
             <div className={styles.screenshot} id="qq_group">
-              <img src="/images/qq_group_screen.png" />
+              <img src="/images/qq_group_screen.webp" />
             </div>
           }
         />
@@ -195,7 +195,7 @@ function Community() {
           }
           right={
             <div className={styles.screenshot}>
-              <img src="/images/bilibili_screen.png" />
+              <img src="/images/bilibili_screen.webp" />
             </div>
           }
         />
@@ -223,7 +223,7 @@ function Community() {
           }
           right={
             <div className={styles.screenshot}>
-              <img src="/images/4399_screen.png" />
+              <img src="/images/4399_screen.webp" />
             </div>
           }
         />
@@ -251,7 +251,7 @@ function Community() {
           }
           right={
             <div className={styles.screenshot}>
-              <img src="/images/hxwz2.cn_screen.png" />
+              <img src="/images/hxwz2.cn_screen.webp" />
             </div>
           }
         />
@@ -288,7 +288,7 @@ function Community() {
           }
           right={
             <div className={styles.screenshot}>
-              <img src="/images/txpd_screen.png" />
+              <img src="/images/txpd_screen.webp" />
             </div>
           }
         />
@@ -316,7 +316,7 @@ function Community() {
           }
           right={
             <div className={styles.screenshot}>
-              <img src="/images/hxwzba_screen.png" />
+              <img src="/images/hxwzba_screen.webp" />
             </div>
           }
         />

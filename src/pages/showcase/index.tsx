@@ -15,7 +15,7 @@ import { Tag, TagType, Tags, TagList } from '../../data/tags';
 
 type Operator = 'OR' | 'AND';
 
-const TITLE = '游戏展示';
+const TITLE = '游戏';
 const DESCRIPTION = '在这里你可以找到幻想纹章的大部分版本';
 // const EDIT_URL =
 //   'https://github.com/airsdk/airsdk.dev/edit/main/src/data/applications.tsx';

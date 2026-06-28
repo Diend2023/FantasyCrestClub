@@ -27,3 +27,4 @@ yarn-error.log*
 
 *.rar
 *.7z
+docusaurus.config.js

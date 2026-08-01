@@ -131,6 +131,15 @@ function Community() {
               <div>
                 <Link
                   className="button button--primary button--md"
+                  to="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TraH_DQgVbmdNdA2-nK2VfNvl8oIY6_7&authKey=PpOmnyrAlXYbGzNjV2kpi1BTn4GFaRnL%2Bpti2Vv%2Fm9f44kxjGcD%2BBU8TvEl8zADk&noverify=0&group_code=601691549"
+                >
+                  幻想纹章·贰《官方群》 &#10132;
+                </Link>
+              </div>
+              <p></p>
+              <div>
+                <Link
+                  className="button button--primary button--md"
                   to="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TAMtzC2Q3wLvQhWTXrwK420ic3wvoX2X&authKey=WWfXbh9wx%2BURjCuc6pxwr1t90CN3tthSIXpDlGaQR4fmCDNlWYmrJ%2Fuap0Ydrjsg&noverify=0&group_code=834796120"
                 >
                   幻想纹章2萌新群 &#10132;

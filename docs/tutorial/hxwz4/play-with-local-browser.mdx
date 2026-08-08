@@ -1,0 +1,69 @@
+---
+title: 使用本地浏览器玩纹4本地版
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+import UseUV from '../_tutorial/hxwz4/play-with-local-browser/uv.md';
+import UseNodeJS from '../_tutorial/hxwz4/play-with-local-browser/nodejs.md';
+import UsePython from '../_tutorial/hxwz4/play-with-local-browser/python.md';
+
+知周所众，幻想纹章4本地版是由haxe打包为Electron的应用程序，理论上可以在本地浏览器中运行。
+
+想要在本地浏览器中运行幻想纹章4本地版非常简单，只需要将游戏的`resources\app`目录映射到localhost的一个端口上，然后在浏览器中访问这个端口即可。
+
+:::warning 提示
+
+在本地浏览器中运行会因为缺失Electron环境导致无法热更新，如果你这样做之后并没有性能提升，建议还是直接玩本地版。
+
+:::
+
+<Tabs
+  groupId="local-browser"
+  defaultValue="uv"
+  values={[
+    {label: '使用UV', value: 'uv'},
+    {label: '使用Node.js', value: 'nodejs'},
+    {label: '使用Python', value: 'python'},
+  ]}>
+
+  <TabItem value="uv" >
+    <UseUV />
+  </TabItem>
+  <TabItem value="nodejs" >
+    <UseNodeJS />
+  </TabItem>
+  <TabItem value="python">
+    <UsePython />
+  </TabItem>
+  
+</Tabs>
+
+## 常见问题
+
+### 每次都输命令太麻烦
+
+自行编写一个bat或者ps1脚本放到`resources\app`目录下，创建快捷方式，以后只需要运行脚本就行
+
+如果使用的工具不会自动打开浏览器，可以在脚本中添加打开浏览器的命令，例如：
+
+```PowerShell
+start http://localhost:8000
+```
+
+### 如何热更新
+
+用正常的方式启动一次幻想纹章4本地版，然后正常热更新即可。
+
+### 无法访问
+
+可能的原因有：
+- 工具没有安装成功，尝试重新安装
+- 端口被占用，尝试更换端口
+- 目录填写错误，尝试使用绝对路径，或者直接在`resources\app`目录下运行命令
+- CMD或者PowerShell窗口被关闭
+
+### 无法联机/联机蓝屏
+
+使用`http`协议访问而不是`https`协议访问
